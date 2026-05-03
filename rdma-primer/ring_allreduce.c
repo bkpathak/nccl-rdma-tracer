@@ -136,6 +136,7 @@ void run_process(int rank, struct shared_info *shared) {
     int right = (rank + 1) % NUM_PROCS;
 
     printf("[rank %d] starting — left=%d right=%d\n", rank, left, right);
+    sleep(3);
 
     // Step 1 — open device
     int num_devices;
@@ -202,12 +203,10 @@ void run_process(int rank, struct shared_info *shared) {
     float *local_sum = calloc(DATA_SIZE, sizeof(float));
     float *fwd_buf   = calloc(DATA_SIZE, sizeof(float));
 
-    // start with own value
     for (int i = 0; i < DATA_SIZE; i++)
         local_sum[i] = send_buf[i];
 
     for (int step = 0; step < NUM_PROCS - 1; step++) {
-        // first step sends own data, subsequent steps forward what was received
         if (step == 0)
             memcpy(send_buf, local_sum, DATA_SIZE * sizeof(float));
         else
@@ -218,21 +217,26 @@ void run_process(int rank, struct shared_info *shared) {
         __sync_fetch_and_add(&shared->step_sync[step], 1);
         while (shared->step_sync[step] < NUM_PROCS) usleep(100);
 
+        struct timespec t_start, t_end;
+        clock_gettime(CLOCK_MONOTONIC, &t_start);
+
         post_send(send_qp, send_mr, send_buf);
         poll_cq(cq);  // send completion
         poll_cq(cq);  // recv completion
 
-        // accumulate received into local sum
+        clock_gettime(CLOCK_MONOTONIC, &t_end);
+
+        long latency_us = (t_end.tv_sec - t_start.tv_sec) * 1000000 +
+                        (t_end.tv_nsec - t_start.tv_nsec) / 1000;
+
         for (int i = 0; i < DATA_SIZE; i++)
             local_sum[i] += recv_buf[i];
 
-        // save what we received to forward next step
         memcpy(fwd_buf, recv_buf, DATA_SIZE * sizeof(float));
 
-        printf("[rank %d] step %d — local sum: %.1f\n",
-               rank, step, local_sum[0]);
+        printf("[rank %d] step %d — sum=%.1f latency=%ld us\n",
+           rank, step, local_sum[0], latency_us);
     }
-
     printf("[rank %d] allreduce complete — final value: %.1f (expected: %.1f)\n",
            rank, local_sum[0], (float)(NUM_PROCS * (NUM_PROCS + 1) / 2));
 
