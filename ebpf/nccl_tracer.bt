@@ -1,11 +1,5 @@
 #!/usr/bin/env bpftrace
 
-/*
- * nccl_tracer.bt
- * Traces RDMA operations on SoftRoCE (rxe) / NCCL workloads
- * Hooks: modify_qp, post_send, post_recv, poll_cq
- */
-
 BEGIN {
     printf("%-10s %-16s %-6s %-20s %s\n",
            "TIME(us)", "EVENT", "PID", "COMM", "DETAIL");
@@ -24,19 +18,18 @@ fentry:rdma_rxe:rxe_modify_qp {
     } else if ($state == 3) {
         printf("%-10llu %-16s %-6d %-20s %s\n",
                elapsed / 1000, "modify_qp", pid, comm, "RTR->RTS");
-    } else {
-        printf("%-10llu %-16s %-6d %-20s %s\n",
-               elapsed / 1000, "modify_qp", pid, comm, "OTHER");
     }
 }
 
 fentry:rdma_rxe:rxe_post_send {
     @send_start[pid] = nsecs;
-    printf("%-10llu %-16s %-6d %-20s\n",
+    @send_count[pid] = @send_count[pid] + 1;
+    printf("%-10llu %-16s %-6d %-20s step=%d\n",
            elapsed / 1000,
            "post_send",
            pid,
-           comm);
+           comm,
+           @send_count[pid]);
 }
 
 fentry:rdma_rxe:rxe_post_recv {
@@ -57,16 +50,15 @@ fentry:rdma_rxe:rxe_poll_cq {
                pid,
                comm,
                $latency_us);
-        delete(@send_start[pid]);
-    } else {
-        printf("%-10llu %-16s %-6d %-20s\n",
-               elapsed / 1000,
-               "poll_cq",
-               pid,
-               comm);
+        @send_start[pid] = 0;
+        @latency_hist = hist($latency_us);
     }
 }
 
 END {
+    printf("\n=== Send-to-Completion Latency Histogram (us) ===\n");
+    print(@latency_hist);
     clear(@send_start);
+    clear(@send_count);
+    clear(@latency_hist);
 }
