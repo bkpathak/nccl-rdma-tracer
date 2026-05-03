@@ -1,0 +1,72 @@
+#!/usr/bin/env bpftrace
+
+/*
+ * nccl_tracer.bt
+ * Traces RDMA operations on SoftRoCE (rxe) / NCCL workloads
+ * Hooks: modify_qp, post_send, post_recv, poll_cq
+ */
+
+BEGIN {
+    printf("%-10s %-16s %-6s %-20s %s\n",
+           "TIME(us)", "EVENT", "PID", "COMM", "DETAIL");
+    printf("%-10s %-16s %-6s %-20s %s\n",
+           "--------", "-----", "---", "----", "------");
+}
+
+fentry:rdma_rxe:rxe_modify_qp {
+    $state = args->attr->qp_state;
+    if ($state == 1) {
+        printf("%-10llu %-16s %-6d %-20s %s\n",
+               elapsed / 1000, "modify_qp", pid, comm, "RESET->INIT");
+    } else if ($state == 2) {
+        printf("%-10llu %-16s %-6d %-20s %s\n",
+               elapsed / 1000, "modify_qp", pid, comm, "INIT->RTR");
+    } else if ($state == 3) {
+        printf("%-10llu %-16s %-6d %-20s %s\n",
+               elapsed / 1000, "modify_qp", pid, comm, "RTR->RTS");
+    } else {
+        printf("%-10llu %-16s %-6d %-20s %s\n",
+               elapsed / 1000, "modify_qp", pid, comm, "OTHER");
+    }
+}
+
+fentry:rdma_rxe:rxe_post_send {
+    @send_start[pid] = nsecs;
+    printf("%-10llu %-16s %-6d %-20s\n",
+           elapsed / 1000,
+           "post_send",
+           pid,
+           comm);
+}
+
+fentry:rdma_rxe:rxe_post_recv {
+    printf("%-10llu %-16s %-6d %-20s\n",
+           elapsed / 1000,
+           "post_recv",
+           pid,
+           comm);
+}
+
+fentry:rdma_rxe:rxe_poll_cq {
+    $start = @send_start[pid];
+    if ($start > 0) {
+        $latency_us = (nsecs - $start) / 1000;
+        printf("%-10llu %-16s %-6d %-20s latency=%llu us\n",
+               elapsed / 1000,
+               "poll_cq",
+               pid,
+               comm,
+               $latency_us);
+        delete(@send_start[pid]);
+    } else {
+        printf("%-10llu %-16s %-6d %-20s\n",
+               elapsed / 1000,
+               "poll_cq",
+               pid,
+               comm);
+    }
+}
+
+END {
+    clear(@send_start);
+}
