@@ -1,0 +1,33 @@
+#!/usr/bin/env bpftrace
+
+uprobe:/usr/lib/x86_64-linux-gnu/libnccl.so:ncclAllReduce
+{
+    @start[tid] = nsecs;
+    printf("[%llu] ncclAllReduce called tid=%d count=%lu\n",
+           nsecs, tid, arg2);
+}
+
+uretprobe:/usr/lib/x86_64-linux-gnu/libnccl.so:ncclAllReduce
+/@start[tid]/
+{
+    $latency_us = (nsecs - @start[tid]) / 1000;
+    printf("[%llu] ncclAllReduce returned tid=%d latency=%llu us\n",
+           nsecs, tid, $latency_us);
+    delete(@start[tid]);
+}
+
+uprobe:/usr/lib/x86_64-linux-gnu/libnccl.so:ncclCommInitAll
+{
+    @comm_start[tid] = nsecs;
+    printf("[%llu] ncclCommInitAll called tid=%d ndev=%d\n",
+           nsecs, tid, arg1);
+}
+
+uretprobe:/usr/lib/x86_64-linux-gnu/libnccl.so:ncclCommInitAll
+/@comm_start[tid]/
+{
+    $latency_ms = (nsecs - @comm_start[tid]) / 1000000;
+    printf("[%llu] ncclCommInitAll done tid=%d latency=%llu ms\n",
+           nsecs, tid, $latency_ms);
+    delete(@comm_start[tid]);
+}
