@@ -1,0 +1,1961 @@
+Attaching 4 probes...
+[1078514643827] ncclAllReduce called tid=6907 count=256
+[1078514776862] ncclAllReduce returned tid=6907 latency=135 us
+[1078514782201] ncclAllReduce called tid=6907 count=256
+[1078514795195] ncclAllReduce returned tid=6907 latency=13 us
+[1078514798446] ncclAllReduce called tid=6907 count=256
+[1078514809088] ncclAllReduce returned tid=6907 latency=10 us
+[1078514811331] ncclAllReduce called tid=6907 count=256
+[1078514821273] ncclAllReduce returned tid=6907 latency=9 us
+[1078514823871] ncclAllReduce called tid=6907 count=256
+[1078514834610] ncclAllReduce returned tid=6907 latency=10 us
+[1078514844562] ncclAllReduce called tid=6907 count=512
+[1078514855224] ncclAllReduce returned tid=6907 latency=10 us
+[1078514857365] ncclAllReduce called tid=6907 count=512
+[1078514867877] ncclAllReduce returned tid=6907 latency=10 us
+[1078514870065] ncclAllReduce called tid=6907 count=512
+[1078514880346] ncclAllReduce returned tid=6907 latency=10 us
+[1078514882551] ncclAllReduce called tid=6907 count=512
+[1078514893380] ncclAllReduce returned tid=6907 latency=10 us
+[1078514895535] ncclAllReduce called tid=6907 count=512
+[1078514905321] ncclAllReduce returned tid=6907 latency=9 us
+[1078514912881] ncclAllReduce called tid=6907 count=1024
+[1078514923072] ncclAllReduce returned tid=6907 latency=10 us
+[1078514925359] ncclAllReduce called tid=6907 count=1024
+[1078514935463] ncclAllReduce returned tid=6907 latency=10 us
+[1078514937569] ncclAllReduce called tid=6907 count=1024
+[1078514947672] ncclAllReduce returned tid=6907 latency=10 us
+[1078514949822] ncclAllReduce called tid=6907 count=1024
+[1078514960094] ncclAllReduce returned tid=6907 latency=10 us
+[1078514962304] ncclAllReduce called tid=6907 count=1024
+[1078514971961] ncclAllReduce returned tid=6907 latency=9 us
+[1078514978406] ncclAllReduce called tid=6907 count=2048
+[1078514988724] ncclAllReduce returned tid=6907 latency=10 us
+[1078514990885] ncclAllReduce called tid=6907 count=2048
+[1078515017275] ncclAllReduce returned tid=6907 latency=26 us
+[1078515019765] ncclAllReduce called tid=6907 count=2048
+[1078515030378] ncclAllReduce returned tid=6907 latency=10 us
+[1078515032470] ncclAllReduce called tid=6907 count=2048
+[1078515043880] ncclAllReduce returned tid=6907 latency=11 us
+[1078515045986] ncclAllReduce called tid=6907 count=2048
+[1078515056193] ncclAllReduce returned tid=6907 latency=10 us
+[1078515062171] ncclAllReduce called tid=6907 count=4096
+[1078515072401] ncclAllReduce returned tid=6907 latency=10 us
+[1078515074698] ncclAllReduce called tid=6907 count=4096
+[1078515085025] ncclAllReduce returned tid=6907 latency=10 us
+[1078515087171] ncclAllReduce called tid=6907 count=4096
+[1078515098334] ncclAllReduce returned tid=6907 latency=11 us
+[1078515100536] ncclAllReduce called tid=6907 count=4096
+[1078515111999] ncclAllReduce returned tid=6907 latency=11 us
+[1078515114106] ncclAllReduce called tid=6907 count=4096
+[1078515139733] ncclAllReduce returned tid=6907 latency=25 us
+[1078515145790] ncclAllReduce called tid=6907 count=8192
+[1078515155682] ncclAllReduce returned tid=6907 latency=9 us
+[1078515157976] ncclAllReduce called tid=6907 count=8192
+[1078515168253] ncclAllReduce returned tid=6907 latency=10 us
+[1078515170388] ncclAllReduce called tid=6907 count=8192
+[1078515180587] ncclAllReduce returned tid=6907 latency=10 us
+[1078515182792] ncclAllReduce called tid=6907 count=8192
+[1078515193372] ncclAllReduce returned tid=6907 latency=10 us
+[1078515195560] ncclAllReduce called tid=6907 count=8192
+[1078515205942] ncclAllReduce returned tid=6907 latency=10 us
+[1078515211691] ncclAllReduce called tid=6907 count=16384
+[1078515221889] ncclAllReduce returned tid=6907 latency=10 us
+[1078515224113] ncclAllReduce called tid=6907 count=16384
+[1078515234442] ncclAllReduce returned tid=6907 latency=10 us
+[1078515236743] ncclAllReduce called tid=6907 count=16384
+[1078515247272] ncclAllReduce returned tid=6907 latency=10 us
+[1078515249799] ncclAllReduce called tid=6907 count=16384
+[1078515260362] ncclAllReduce returned tid=6907 latency=10 us
+[1078515262596] ncclAllReduce called tid=6907 count=16384
+[1078515273300] ncclAllReduce returned tid=6907 latency=10 us
+[1078515279326] ncclAllReduce called tid=6907 count=32768
+[1078515289378] ncclAllReduce returned tid=6907 latency=10 us
+[1078515291609] ncclAllReduce called tid=6907 count=32768
+[1078515301614] ncclAllReduce returned tid=6907 latency=10 us
+[1078515304084] ncclAllReduce called tid=6907 count=32768
+[1078515314194] ncclAllReduce returned tid=6907 latency=10 us
+[1078515316529] ncclAllReduce called tid=6907 count=32768
+[1078515327873] ncclAllReduce returned tid=6907 latency=11 us
+[1078515330086] ncclAllReduce called tid=6907 count=32768
+[1078515340666] ncclAllReduce returned tid=6907 latency=10 us
+[1078515346676] ncclAllReduce called tid=6907 count=65536
+[1078515356771] ncclAllReduce returned tid=6907 latency=10 us
+[1078515359131] ncclAllReduce called tid=6907 count=65536
+[1078515369145] ncclAllReduce returned tid=6907 latency=10 us
+[1078515371301] ncclAllReduce called tid=6907 count=65536
+[1078515381859] ncclAllReduce returned tid=6907 latency=10 us
+[1078515384282] ncclAllReduce called tid=6907 count=65536
+[1078515394693] ncclAllReduce returned tid=6907 latency=10 us
+[1078515397121] ncclAllReduce called tid=6907 count=65536
+[1078515407527] ncclAllReduce returned tid=6907 latency=10 us
+[1078515414001] ncclAllReduce called tid=6907 count=131072
+[1078515424424] ncclAllReduce returned tid=6907 latency=10 us
+[1078515426691] ncclAllReduce called tid=6907 count=131072
+[1078515437047] ncclAllReduce returned tid=6907 latency=10 us
+[1078515439472] ncclAllReduce called tid=6907 count=131072
+[1078515450253] ncclAllReduce returned tid=6907 latency=10 us
+[1078515452455] ncclAllReduce called tid=6907 count=131072
+[1078515463438] ncclAllReduce returned tid=6907 latency=11 us
+[1078515465591] ncclAllReduce called tid=6907 count=131072
+[1078515475956] ncclAllReduce returned tid=6907 latency=10 us
+[1078515484217] ncclAllReduce called tid=6907 count=262144
+[1078515495952] ncclAllReduce returned tid=6907 latency=11 us
+[1078515498374] ncclAllReduce called tid=6907 count=262144
+[1078515508510] ncclAllReduce returned tid=6907 latency=10 us
+[1078515510743] ncclAllReduce called tid=6907 count=262144
+[1078515521634] ncclAllReduce returned tid=6907 latency=10 us
+[1078515523812] ncclAllReduce called tid=6907 count=262144
+[1078515533745] ncclAllReduce returned tid=6907 latency=9 us
+[1078515535931] ncclAllReduce called tid=6907 count=262144
+[1078515546164] ncclAllReduce returned tid=6907 latency=10 us
+[1078515555875] ncclAllReduce called tid=6907 count=524288
+[1078515566163] ncclAllReduce returned tid=6907 latency=10 us
+[1078515568546] ncclAllReduce called tid=6907 count=524288
+[1078515578872] ncclAllReduce returned tid=6907 latency=10 us
+[1078515581248] ncclAllReduce called tid=6907 count=524288
+[1078515591238] ncclAllReduce returned tid=6907 latency=10 us
+[1078515593465] ncclAllReduce called tid=6907 count=524288
+[1078515603627] ncclAllReduce returned tid=6907 latency=10 us
+[1078515605810] ncclAllReduce called tid=6907 count=524288
+[1078515616144] ncclAllReduce returned tid=6907 latency=10 us
+[1078515626948] ncclAllReduce called tid=6907 count=1048576
+[1078515637431] ncclAllReduce returned tid=6907 latency=10 us
+[1078515639660] ncclAllReduce called tid=6907 count=1048576
+[1078515650273] ncclAllReduce returned tid=6907 latency=10 us
+[1078515652697] ncclAllReduce called tid=6907 count=1048576
+[1078515663154] ncclAllReduce returned tid=6907 latency=10 us
+[1078515665324] ncclAllReduce called tid=6907 count=1048576
+[1078515676081] ncclAllReduce returned tid=6907 latency=10 us
+[1078515678271] ncclAllReduce called tid=6907 count=1048576
+[1078515688521] ncclAllReduce returned tid=6907 latency=10 us
+[1078515710407] ncclAllReduce called tid=6907 count=2097152
+[1078515720639] ncclAllReduce returned tid=6907 latency=10 us
+[1078515722915] ncclAllReduce called tid=6907 count=2097152
+[1078515733478] ncclAllReduce returned tid=6907 latency=10 us
+[1078515735828] ncclAllReduce called tid=6907 count=2097152
+[1078515746552] ncclAllReduce returned tid=6907 latency=10 us
+[1078515748768] ncclAllReduce called tid=6907 count=2097152
+[1078515758839] ncclAllReduce returned tid=6907 latency=10 us
+[1078515761239] ncclAllReduce called tid=6907 count=2097152
+[1078515771249] ncclAllReduce returned tid=6907 latency=10 us
+[1078515848623] ncclAllReduce called tid=6907 count=4194304
+[1078515859138] ncclAllReduce returned tid=6907 latency=10 us
+[1078515861403] ncclAllReduce called tid=6907 count=4194304
+[1078515872185] ncclAllReduce returned tid=6907 latency=10 us
+[1078515874364] ncclAllReduce called tid=6907 count=4194304
+[1078515884611] ncclAllReduce returned tid=6907 latency=10 us
+[1078515887069] ncclAllReduce called tid=6907 count=4194304
+[1078515896892] ncclAllReduce returned tid=6907 latency=9 us
+[1078515899064] ncclAllReduce called tid=6907 count=4194304
+[1078515909553] ncclAllReduce returned tid=6907 latency=10 us
+[1078516097393] ncclAllReduce called tid=6907 count=8388608
+[1078516108771] ncclAllReduce returned tid=6907 latency=11 us
+[1078516110958] ncclAllReduce called tid=6907 count=8388608
+[1078516121429] ncclAllReduce returned tid=6907 latency=10 us
+[1078516123512] ncclAllReduce called tid=6907 count=8388608
+[1078516134050] ncclAllReduce returned tid=6907 latency=10 us
+[1078516136198] ncclAllReduce called tid=6907 count=8388608
+[1078516146236] ncclAllReduce returned tid=6907 latency=10 us
+[1078516148643] ncclAllReduce called tid=6907 count=8388608
+[1078516158386] ncclAllReduce returned tid=6907 latency=9 us
+[1078516570236] ncclAllReduce called tid=6907 count=16777216
+[1078516580634] ncclAllReduce returned tid=6907 latency=10 us
+[1078516582902] ncclAllReduce called tid=6907 count=16777216
+[1078516593408] ncclAllReduce returned tid=6907 latency=10 us
+[1078516595713] ncclAllReduce called tid=6907 count=16777216
+[1078516605654] ncclAllReduce returned tid=6907 latency=9 us
+[1078516607832] ncclAllReduce called tid=6907 count=16777216
+[1078516617680] ncclAllReduce returned tid=6907 latency=9 us
+[1078516619965] ncclAllReduce called tid=6907 count=16777216
+[1078516629629] ncclAllReduce returned tid=6907 latency=9 us
+[1078517480557] ncclAllReduce called tid=6907 count=33554432
+[1078517491869] ncclAllReduce returned tid=6907 latency=11 us
+[1078517494003] ncclAllReduce called tid=6907 count=33554432
+[1078517504989] ncclAllReduce returned tid=6907 latency=11 us
+[1078517507372] ncclAllReduce called tid=6907 count=33554432
+[1078517516925] ncclAllReduce returned tid=6907 latency=9 us
+[1078517519121] ncclAllReduce called tid=6907 count=33554432
+[1078517529512] ncclAllReduce returned tid=6907 latency=10 us
+[1078517531636] ncclAllReduce called tid=6907 count=33554432
+[1078517541433] ncclAllReduce returned tid=6907 latency=9 us
+[1078519273041] ncclAllReduce called tid=6907 count=67108864
+[1078519289885] ncclAllReduce returned tid=6907 latency=16 us
+[1078519292231] ncclAllReduce called tid=6907 count=67108864
+[1078519303158] ncclAllReduce returned tid=6907 latency=10 us
+[1078519305283] ncclAllReduce called tid=6907 count=67108864
+[1078519315169] ncclAllReduce returned tid=6907 latency=9 us
+[1078519317277] ncclAllReduce called tid=6907 count=67108864
+[1078519327016] ncclAllReduce returned tid=6907 latency=9 us
+[1078519329171] ncclAllReduce called tid=6907 count=67108864
+[1078519339116] ncclAllReduce returned tid=6907 latency=9 us
+[1078522830364] ncclAllReduce called tid=6907 count=134217728
+[1078522848833] ncclAllReduce returned tid=6907 latency=18 us
+[1078522850929] ncclAllReduce called tid=6907 count=134217728
+[1078522863129] ncclAllReduce returned tid=6907 latency=12 us
+[1078522865386] ncclAllReduce called tid=6907 count=134217728
+[1078522878235] ncclAllReduce returned tid=6907 latency=12 us
+[1078522880271] ncclAllReduce called tid=6907 count=134217728
+[1078522892571] ncclAllReduce returned tid=6907 latency=12 us
+[1078522894745] ncclAllReduce called tid=6907 count=134217728
+[1078522906586] ncclAllReduce returned tid=6907 latency=11 us
+[1078536729481] ncclAllReduce called tid=6907 count=256
+[1078536762453] ncclAllReduce returned tid=6907 latency=34 us
+[1078536769922] ncclAllReduce called tid=6907 count=256
+[1078536781312] ncclAllReduce returned tid=6907 latency=11 us
+[1078536783439] ncclAllReduce called tid=6907 count=256
+[1078536793210] ncclAllReduce returned tid=6907 latency=9 us
+[1078536795442] ncclAllReduce called tid=6907 count=256
+[1078536805142] ncclAllReduce returned tid=6907 latency=9 us
+[1078536807185] ncclAllReduce called tid=6907 count=256
+[1078536817009] ncclAllReduce returned tid=6907 latency=9 us
+[1078536819220] ncclAllReduce called tid=6907 count=256
+[1078536829530] ncclAllReduce returned tid=6907 latency=10 us
+[1078536831681] ncclAllReduce called tid=6907 count=256
+[1078536841443] ncclAllReduce returned tid=6907 latency=9 us
+[1078536843627] ncclAllReduce called tid=6907 count=256
+[1078536853638] ncclAllReduce returned tid=6907 latency=10 us
+[1078536855709] ncclAllReduce called tid=6907 count=256
+[1078536864892] ncclAllReduce returned tid=6907 latency=9 us
+[1078536867018] ncclAllReduce called tid=6907 count=256
+[1078536876608] ncclAllReduce returned tid=6907 latency=9 us
+[1078536879589] ncclAllReduce called tid=6907 count=256
+[1078536889638] ncclAllReduce returned tid=6907 latency=10 us
+[1078536891939] ncclAllReduce called tid=6907 count=256
+[1078536901824] ncclAllReduce returned tid=6907 latency=9 us
+[1078536903953] ncclAllReduce called tid=6907 count=256
+[1078536913198] ncclAllReduce returned tid=6907 latency=9 us
+[1078536915366] ncclAllReduce called tid=6907 count=256
+[1078536924796] ncclAllReduce returned tid=6907 latency=9 us
+[1078536927035] ncclAllReduce called tid=6907 count=256
+[1078536937116] ncclAllReduce returned tid=6907 latency=10 us
+[1078536939215] ncclAllReduce called tid=6907 count=256
+[1078536948821] ncclAllReduce returned tid=6907 latency=9 us
+[1078536951183] ncclAllReduce called tid=6907 count=256
+[1078536960816] ncclAllReduce returned tid=6907 latency=9 us
+[1078536963065] ncclAllReduce called tid=6907 count=256
+[1078536972103] ncclAllReduce returned tid=6907 latency=9 us
+[1078536974372] ncclAllReduce called tid=6907 count=256
+[1078536983238] ncclAllReduce returned tid=6907 latency=8 us
+[1078536985379] ncclAllReduce called tid=6907 count=256
+[1078536995036] ncclAllReduce returned tid=6907 latency=9 us
+[1078536997517] ncclAllReduce called tid=6907 count=256
+[1078537025617] ncclAllReduce returned tid=6907 latency=28 us
+[1078537054022] ncclAllReduce called tid=6907 count=256
+[1078537064837] ncclAllReduce returned tid=6907 latency=10 us
+[1078537658487] ncclAllReduce called tid=6907 count=256
+[1078537665682] ncclAllReduce returned tid=6907 latency=7 us
+[1078537671078] ncclAllReduce called tid=6907 count=256
+[1078537676239] ncclAllReduce returned tid=6907 latency=5 us
+[1078537678282] ncclAllReduce called tid=6907 count=256
+[1078537683451] ncclAllReduce returned tid=6907 latency=5 us
+[1078537685810] ncclAllReduce called tid=6907 count=256
+[1078537690939] ncclAllReduce returned tid=6907 latency=5 us
+[1078537692908] ncclAllReduce called tid=6907 count=256
+[1078537698007] ncclAllReduce returned tid=6907 latency=5 us
+[1078537700284] ncclAllReduce called tid=6907 count=256
+[1078537705312] ncclAllReduce returned tid=6907 latency=5 us
+[1078537707319] ncclAllReduce called tid=6907 count=256
+[1078537713277] ncclAllReduce returned tid=6907 latency=6 us
+[1078537715539] ncclAllReduce called tid=6907 count=256
+[1078537720722] ncclAllReduce returned tid=6907 latency=5 us
+[1078537722659] ncclAllReduce called tid=6907 count=256
+[1078537727763] ncclAllReduce returned tid=6907 latency=5 us
+[1078537730048] ncclAllReduce called tid=6907 count=256
+[1078537735018] ncclAllReduce returned tid=6907 latency=5 us
+[1078537737056] ncclAllReduce called tid=6907 count=256
+[1078537742080] ncclAllReduce returned tid=6907 latency=5 us
+[1078537744013] ncclAllReduce called tid=6907 count=256
+[1078537749048] ncclAllReduce returned tid=6907 latency=5 us
+[1078537751271] ncclAllReduce called tid=6907 count=256
+[1078537756183] ncclAllReduce returned tid=6907 latency=4 us
+[1078537758145] ncclAllReduce called tid=6907 count=256
+[1078537763149] ncclAllReduce returned tid=6907 latency=5 us
+[1078537765128] ncclAllReduce called tid=6907 count=256
+[1078537770642] ncclAllReduce returned tid=6907 latency=5 us
+[1078537772691] ncclAllReduce called tid=6907 count=256
+[1078537777738] ncclAllReduce returned tid=6907 latency=5 us
+[1078537779935] ncclAllReduce called tid=6907 count=256
+[1078537784959] ncclAllReduce returned tid=6907 latency=5 us
+[1078537786944] ncclAllReduce called tid=6907 count=256
+[1078537791766] ncclAllReduce returned tid=6907 latency=4 us
+[1078537793793] ncclAllReduce called tid=6907 count=256
+[1078537798975] ncclAllReduce returned tid=6907 latency=5 us
+[1078537800917] ncclAllReduce called tid=6907 count=256
+[1078537805898] ncclAllReduce returned tid=6907 latency=5 us
+[1078537807875] ncclAllReduce called tid=6907 count=256
+[1078537812790] ncclAllReduce returned tid=6907 latency=4 us
+[1078537835803] ncclAllReduce called tid=6907 count=256
+[1078537841659] ncclAllReduce returned tid=6907 latency=5 us
+[1078538402739] ncclAllReduce called tid=6907 count=512
+[1078538417083] ncclAllReduce returned tid=6907 latency=14 us
+[1078538424097] ncclAllReduce called tid=6907 count=512
+[1078538434566] ncclAllReduce returned tid=6907 latency=10 us
+[1078538437078] ncclAllReduce called tid=6907 count=512
+[1078538448093] ncclAllReduce returned tid=6907 latency=11 us
+[1078538450451] ncclAllReduce called tid=6907 count=512
+[1078538460795] ncclAllReduce returned tid=6907 latency=10 us
+[1078538463141] ncclAllReduce called tid=6907 count=512
+[1078538472947] ncclAllReduce returned tid=6907 latency=9 us
+[1078538475181] ncclAllReduce called tid=6907 count=512
+[1078538485456] ncclAllReduce returned tid=6907 latency=10 us
+[1078538487607] ncclAllReduce called tid=6907 count=512
+[1078538497861] ncclAllReduce returned tid=6907 latency=10 us
+[1078538500249] ncclAllReduce called tid=6907 count=512
+[1078538526462] ncclAllReduce returned tid=6907 latency=26 us
+[1078538528893] ncclAllReduce called tid=6907 count=512
+[1078538539463] ncclAllReduce returned tid=6907 latency=10 us
+[1078538541739] ncclAllReduce called tid=6907 count=512
+[1078538551883] ncclAllReduce returned tid=6907 latency=10 us
+[1078538554379] ncclAllReduce called tid=6907 count=512
+[1078538564613] ncclAllReduce returned tid=6907 latency=10 us
+[1078538566986] ncclAllReduce called tid=6907 count=512
+[1078538576820] ncclAllReduce returned tid=6907 latency=9 us
+[1078538579099] ncclAllReduce called tid=6907 count=512
+[1078538588829] ncclAllReduce returned tid=6907 latency=9 us
+[1078538591343] ncclAllReduce called tid=6907 count=512
+[1078538601843] ncclAllReduce returned tid=6907 latency=10 us
+[1078538604024] ncclAllReduce called tid=6907 count=512
+[1078538615019] ncclAllReduce returned tid=6907 latency=11 us
+[1078538617433] ncclAllReduce called tid=6907 count=512
+[1078538627864] ncclAllReduce returned tid=6907 latency=10 us
+[1078538630306] ncclAllReduce called tid=6907 count=512
+[1078538640574] ncclAllReduce returned tid=6907 latency=10 us
+[1078538642823] ncclAllReduce called tid=6907 count=512
+[1078538652983] ncclAllReduce returned tid=6907 latency=10 us
+[1078538655497] ncclAllReduce called tid=6907 count=512
+[1078538665571] ncclAllReduce returned tid=6907 latency=10 us
+[1078538667754] ncclAllReduce called tid=6907 count=512
+[1078538678050] ncclAllReduce returned tid=6907 latency=10 us
+[1078538680298] ncclAllReduce called tid=6907 count=512
+[1078538690100] ncclAllReduce returned tid=6907 latency=9 us
+[1078538718634] ncclAllReduce called tid=6907 count=512
+[1078538729899] ncclAllReduce returned tid=6907 latency=11 us
+[1078539284801] ncclAllReduce called tid=6907 count=512
+[1078539291784] ncclAllReduce returned tid=6907 latency=7 us
+[1078539296532] ncclAllReduce called tid=6907 count=512
+[1078539302102] ncclAllReduce returned tid=6907 latency=5 us
+[1078539304296] ncclAllReduce called tid=6907 count=512
+[1078539309614] ncclAllReduce returned tid=6907 latency=5 us
+[1078539311977] ncclAllReduce called tid=6907 count=512
+[1078539317366] ncclAllReduce returned tid=6907 latency=5 us
+[1078539319493] ncclAllReduce called tid=6907 count=512
+[1078539324665] ncclAllReduce returned tid=6907 latency=5 us
+[1078539327050] ncclAllReduce called tid=6907 count=512
+[1078539332949] ncclAllReduce returned tid=6907 latency=5 us
+[1078539335056] ncclAllReduce called tid=6907 count=512
+[1078539341230] ncclAllReduce returned tid=6907 latency=6 us
+[1078539343455] ncclAllReduce called tid=6907 count=512
+[1078539348787] ncclAllReduce returned tid=6907 latency=5 us
+[1078539351210] ncclAllReduce called tid=6907 count=512
+[1078539356639] ncclAllReduce returned tid=6907 latency=5 us
+[1078539358826] ncclAllReduce called tid=6907 count=512
+[1078539364256] ncclAllReduce returned tid=6907 latency=5 us
+[1078539366400] ncclAllReduce called tid=6907 count=512
+[1078539371730] ncclAllReduce returned tid=6907 latency=5 us
+[1078539374068] ncclAllReduce called tid=6907 count=512
+[1078539379453] ncclAllReduce returned tid=6907 latency=5 us
+[1078539381606] ncclAllReduce called tid=6907 count=512
+[1078539386823] ncclAllReduce returned tid=6907 latency=5 us
+[1078539389018] ncclAllReduce called tid=6907 count=512
+[1078539394333] ncclAllReduce returned tid=6907 latency=5 us
+[1078539396664] ncclAllReduce called tid=6907 count=512
+[1078539402727] ncclAllReduce returned tid=6907 latency=6 us
+[1078539404864] ncclAllReduce called tid=6907 count=512
+[1078539410168] ncclAllReduce returned tid=6907 latency=5 us
+[1078539412372] ncclAllReduce called tid=6907 count=512
+[1078539417747] ncclAllReduce returned tid=6907 latency=5 us
+[1078539420070] ncclAllReduce called tid=6907 count=512
+[1078539425427] ncclAllReduce returned tid=6907 latency=5 us
+[1078539427576] ncclAllReduce called tid=6907 count=512
+[1078539432857] ncclAllReduce returned tid=6907 latency=5 us
+[1078539434970] ncclAllReduce called tid=6907 count=512
+[1078539440593] ncclAllReduce returned tid=6907 latency=5 us
+[1078539442746] ncclAllReduce called tid=6907 count=512
+[1078539447952] ncclAllReduce returned tid=6907 latency=5 us
+[1078539471214] ncclAllReduce called tid=6907 count=512
+[1078539477402] ncclAllReduce returned tid=6907 latency=6 us
+[1078540048213] ncclAllReduce called tid=6907 count=1024
+[1078540077386] ncclAllReduce returned tid=6907 latency=29 us
+[1078540085007] ncclAllReduce called tid=6907 count=1024
+[1078540095542] ncclAllReduce returned tid=6907 latency=10 us
+[1078540098061] ncclAllReduce called tid=6907 count=1024
+[1078540107879] ncclAllReduce returned tid=6907 latency=9 us
+[1078540110205] ncclAllReduce called tid=6907 count=1024
+[1078540120273] ncclAllReduce returned tid=6907 latency=10 us
+[1078540122725] ncclAllReduce called tid=6907 count=1024
+[1078540133174] ncclAllReduce returned tid=6907 latency=10 us
+[1078540135477] ncclAllReduce called tid=6907 count=1024
+[1078540145789] ncclAllReduce returned tid=6907 latency=10 us
+[1078540148022] ncclAllReduce called tid=6907 count=1024
+[1078540157912] ncclAllReduce returned tid=6907 latency=9 us
+[1078540160395] ncclAllReduce called tid=6907 count=1024
+[1078540170219] ncclAllReduce returned tid=6907 latency=9 us
+[1078540172562] ncclAllReduce called tid=6907 count=1024
+[1078540182621] ncclAllReduce returned tid=6907 latency=10 us
+[1078540185028] ncclAllReduce called tid=6907 count=1024
+[1078540195594] ncclAllReduce returned tid=6907 latency=10 us
+[1078540197898] ncclAllReduce called tid=6907 count=1024
+[1078540218656] ncclAllReduce returned tid=6907 latency=20 us
+[1078540221084] ncclAllReduce called tid=6907 count=1024
+[1078540230818] ncclAllReduce returned tid=6907 latency=9 us
+[1078540232988] ncclAllReduce called tid=6907 count=1024
+[1078540242712] ncclAllReduce returned tid=6907 latency=9 us
+[1078540245164] ncclAllReduce called tid=6907 count=1024
+[1078540255279] ncclAllReduce returned tid=6907 latency=10 us
+[1078540257475] ncclAllReduce called tid=6907 count=1024
+[1078540267916] ncclAllReduce returned tid=6907 latency=10 us
+[1078540270335] ncclAllReduce called tid=6907 count=1024
+[1078540280894] ncclAllReduce returned tid=6907 latency=10 us
+[1078540283154] ncclAllReduce called tid=6907 count=1024
+[1078540292628] ncclAllReduce returned tid=6907 latency=9 us
+[1078540294800] ncclAllReduce called tid=6907 count=1024
+[1078540304972] ncclAllReduce returned tid=6907 latency=10 us
+[1078540307170] ncclAllReduce called tid=6907 count=1024
+[1078540316753] ncclAllReduce returned tid=6907 latency=9 us
+[1078540319020] ncclAllReduce called tid=6907 count=1024
+[1078540329370] ncclAllReduce returned tid=6907 latency=10 us
+[1078540331763] ncclAllReduce called tid=6907 count=1024
+[1078540341695] ncclAllReduce returned tid=6907 latency=9 us
+[1078540364416] ncclAllReduce called tid=6907 count=1024
+[1078540375242] ncclAllReduce returned tid=6907 latency=10 us
+[1078540927360] ncclAllReduce called tid=6907 count=1024
+[1078540934016] ncclAllReduce returned tid=6907 latency=6 us
+[1078540938497] ncclAllReduce called tid=6907 count=1024
+[1078540944003] ncclAllReduce returned tid=6907 latency=5 us
+[1078540946128] ncclAllReduce called tid=6907 count=1024
+[1078540951445] ncclAllReduce returned tid=6907 latency=5 us
+[1078540953613] ncclAllReduce called tid=6907 count=1024
+[1078540958993] ncclAllReduce returned tid=6907 latency=5 us
+[1078540961040] ncclAllReduce called tid=6907 count=1024
+[1078540966230] ncclAllReduce returned tid=6907 latency=5 us
+[1078540968540] ncclAllReduce called tid=6907 count=1024
+[1078540973700] ncclAllReduce returned tid=6907 latency=5 us
+[1078540975737] ncclAllReduce called tid=6907 count=1024
+[1078540980977] ncclAllReduce returned tid=6907 latency=5 us
+[1078540983056] ncclAllReduce called tid=6907 count=1024
+[1078540988401] ncclAllReduce returned tid=6907 latency=5 us
+[1078540990972] ncclAllReduce called tid=6907 count=1024
+[1078540996481] ncclAllReduce returned tid=6907 latency=5 us
+[1078540998524] ncclAllReduce called tid=6907 count=1024
+[1078541018709] ncclAllReduce returned tid=6907 latency=20 us
+[1078541020925] ncclAllReduce called tid=6907 count=1024
+[1078541026043] ncclAllReduce returned tid=6907 latency=5 us
+[1078541044404] ncclAllReduce called tid=6907 count=1024
+[1078541050075] ncclAllReduce returned tid=6907 latency=5 us
+[1078541052191] ncclAllReduce called tid=6907 count=1024
+[1078541057580] ncclAllReduce returned tid=6907 latency=5 us
+[1078541059735] ncclAllReduce called tid=6907 count=1024
+[1078541064917] ncclAllReduce returned tid=6907 latency=5 us
+[1078541067348] ncclAllReduce called tid=6907 count=1024
+[1078541073330] ncclAllReduce returned tid=6907 latency=6 us
+[1078541075492] ncclAllReduce called tid=6907 count=1024
+[1078541081045] ncclAllReduce returned tid=6907 latency=5 us
+[1078541083170] ncclAllReduce called tid=6907 count=1024
+[1078541088768] ncclAllReduce returned tid=6907 latency=5 us
+[1078541090866] ncclAllReduce called tid=6907 count=1024
+[1078541096243] ncclAllReduce returned tid=6907 latency=5 us
+[1078541098372] ncclAllReduce called tid=6907 count=1024
+[1078541103621] ncclAllReduce returned tid=6907 latency=5 us
+[1078541106044] ncclAllReduce called tid=6907 count=1024
+[1078541111356] ncclAllReduce returned tid=6907 latency=5 us
+[1078541113449] ncclAllReduce called tid=6907 count=1024
+[1078541118830] ncclAllReduce returned tid=6907 latency=5 us
+[1078541144221] ncclAllReduce called tid=6907 count=1024
+[1078541150269] ncclAllReduce returned tid=6907 latency=6 us
+[1078541712519] ncclAllReduce called tid=6907 count=2048
+[1078541724141] ncclAllReduce returned tid=6907 latency=11 us
+[1078541731285] ncclAllReduce called tid=6907 count=2048
+[1078541741760] ncclAllReduce returned tid=6907 latency=10 us
+[1078541744219] ncclAllReduce called tid=6907 count=2048
+[1078541754389] ncclAllReduce returned tid=6907 latency=10 us
+[1078541756685] ncclAllReduce called tid=6907 count=2048
+[1078541767002] ncclAllReduce returned tid=6907 latency=10 us
+[1078541769168] ncclAllReduce called tid=6907 count=2048
+[1078541779033] ncclAllReduce returned tid=6907 latency=9 us
+[1078541781311] ncclAllReduce called tid=6907 count=2048
+[1078541791728] ncclAllReduce returned tid=6907 latency=10 us
+[1078541794005] ncclAllReduce called tid=6907 count=2048
+[1078541803749] ncclAllReduce returned tid=6907 latency=9 us
+[1078541806151] ncclAllReduce called tid=6907 count=2048
+[1078541816727] ncclAllReduce returned tid=6907 latency=10 us
+[1078541818960] ncclAllReduce called tid=6907 count=2048
+[1078541829248] ncclAllReduce returned tid=6907 latency=10 us
+[1078541831443] ncclAllReduce called tid=6907 count=2048
+[1078541841443] ncclAllReduce returned tid=6907 latency=10 us
+[1078541843667] ncclAllReduce called tid=6907 count=2048
+[1078541852975] ncclAllReduce returned tid=6907 latency=9 us
+[1078541855428] ncclAllReduce called tid=6907 count=2048
+[1078541865080] ncclAllReduce returned tid=6907 latency=9 us
+[1078541867450] ncclAllReduce called tid=6907 count=2048
+[1078541877634] ncclAllReduce returned tid=6907 latency=10 us
+[1078541879852] ncclAllReduce called tid=6907 count=2048
+[1078541889515] ncclAllReduce returned tid=6907 latency=9 us
+[1078541891970] ncclAllReduce called tid=6907 count=2048
+[1078541902039] ncclAllReduce returned tid=6907 latency=10 us
+[1078541904218] ncclAllReduce called tid=6907 count=2048
+[1078541913785] ncclAllReduce returned tid=6907 latency=9 us
+[1078541916188] ncclAllReduce called tid=6907 count=2048
+[1078541926024] ncclAllReduce returned tid=6907 latency=9 us
+[1078541928410] ncclAllReduce called tid=6907 count=2048
+[1078541938350] ncclAllReduce returned tid=6907 latency=10 us
+[1078541940583] ncclAllReduce called tid=6907 count=2048
+[1078541950583] ncclAllReduce returned tid=6907 latency=10 us
+[1078541953034] ncclAllReduce called tid=6907 count=2048
+[1078541963306] ncclAllReduce returned tid=6907 latency=10 us
+[1078541965469] ncclAllReduce called tid=6907 count=2048
+[1078541975390] ncclAllReduce returned tid=6907 latency=9 us
+[1078542018229] ncclAllReduce called tid=6907 count=2048
+[1078542046230] ncclAllReduce returned tid=6907 latency=28 us
+[1078542608873] ncclAllReduce called tid=6907 count=2048
+[1078542616029] ncclAllReduce returned tid=6907 latency=7 us
+[1078542620796] ncclAllReduce called tid=6907 count=2048
+[1078542626510] ncclAllReduce returned tid=6907 latency=5 us
+[1078542629058] ncclAllReduce called tid=6907 count=2048
+[1078542634443] ncclAllReduce returned tid=6907 latency=5 us
+[1078542636697] ncclAllReduce called tid=6907 count=2048
+[1078542642044] ncclAllReduce returned tid=6907 latency=5 us
+[1078542644190] ncclAllReduce called tid=6907 count=2048
+[1078542649635] ncclAllReduce returned tid=6907 latency=5 us
+[1078542652351] ncclAllReduce called tid=6907 count=2048
+[1078542657632] ncclAllReduce returned tid=6907 latency=5 us
+[1078542659819] ncclAllReduce called tid=6907 count=2048
+[1078542665191] ncclAllReduce returned tid=6907 latency=5 us
+[1078542667888] ncclAllReduce called tid=6907 count=2048
+[1078542673626] ncclAllReduce returned tid=6907 latency=5 us
+[1078542675762] ncclAllReduce called tid=6907 count=2048
+[1078542681281] ncclAllReduce returned tid=6907 latency=5 us
+[1078542683478] ncclAllReduce called tid=6907 count=2048
+[1078542688885] ncclAllReduce returned tid=6907 latency=5 us
+[1078542691234] ncclAllReduce called tid=6907 count=2048
+[1078542696523] ncclAllReduce returned tid=6907 latency=5 us
+[1078542698653] ncclAllReduce called tid=6907 count=2048
+[1078542703902] ncclAllReduce returned tid=6907 latency=5 us
+[1078542706015] ncclAllReduce called tid=6907 count=2048
+[1078542711612] ncclAllReduce returned tid=6907 latency=5 us
+[1078542713751] ncclAllReduce called tid=6907 count=2048
+[1078542718949] ncclAllReduce returned tid=6907 latency=5 us
+[1078542721130] ncclAllReduce called tid=6907 count=2048
+[1078542726436] ncclAllReduce returned tid=6907 latency=5 us
+[1078542728770] ncclAllReduce called tid=6907 count=2048
+[1078542734440] ncclAllReduce returned tid=6907 latency=5 us
+[1078542736582] ncclAllReduce called tid=6907 count=2048
+[1078542742123] ncclAllReduce returned tid=6907 latency=5 us
+[1078542744312] ncclAllReduce called tid=6907 count=2048
+[1078542749946] ncclAllReduce returned tid=6907 latency=5 us
+[1078542752049] ncclAllReduce called tid=6907 count=2048
+[1078542757421] ncclAllReduce returned tid=6907 latency=5 us
+[1078542759558] ncclAllReduce called tid=6907 count=2048
+[1078542764815] ncclAllReduce returned tid=6907 latency=5 us
+[1078542767167] ncclAllReduce called tid=6907 count=2048
+[1078542772558] ncclAllReduce returned tid=6907 latency=5 us
+[1078542797113] ncclAllReduce called tid=6907 count=2048
+[1078542803129] ncclAllReduce returned tid=6907 latency=6 us
+[1078543384481] ncclAllReduce called tid=6907 count=4096
+[1078543397179] ncclAllReduce returned tid=6907 latency=12 us
+[1078543404559] ncclAllReduce called tid=6907 count=4096
+[1078543415270] ncclAllReduce returned tid=6907 latency=10 us
+[1078543428061] ncclAllReduce called tid=6907 count=4096
+[1078543437577] ncclAllReduce returned tid=6907 latency=9 us
+[1078543439982] ncclAllReduce called tid=6907 count=4096
+[1078543449309] ncclAllReduce returned tid=6907 latency=9 us
+[1078543451461] ncclAllReduce called tid=6907 count=4096
+[1078543461345] ncclAllReduce returned tid=6907 latency=9 us
+[1078543463607] ncclAllReduce called tid=6907 count=4096
+[1078543473275] ncclAllReduce returned tid=6907 latency=9 us
+[1078543475395] ncclAllReduce called tid=6907 count=4096
+[1078543484698] ncclAllReduce returned tid=6907 latency=9 us
+[1078543486949] ncclAllReduce called tid=6907 count=4096
+[1078543496778] ncclAllReduce returned tid=6907 latency=9 us
+[1078543498890] ncclAllReduce called tid=6907 count=4096
+[1078543508403] ncclAllReduce returned tid=6907 latency=9 us
+[1078543510760] ncclAllReduce called tid=6907 count=4096
+[1078543520436] ncclAllReduce returned tid=6907 latency=9 us
+[1078543522472] ncclAllReduce called tid=6907 count=4096
+[1078543531485] ncclAllReduce returned tid=6907 latency=9 us
+[1078543533776] ncclAllReduce called tid=6907 count=4096
+[1078543558939] ncclAllReduce returned tid=6907 latency=25 us
+[1078543561350] ncclAllReduce called tid=6907 count=4096
+[1078543571189] ncclAllReduce returned tid=6907 latency=9 us
+[1078543573560] ncclAllReduce called tid=6907 count=4096
+[1078543583449] ncclAllReduce returned tid=6907 latency=9 us
+[1078543585663] ncclAllReduce called tid=6907 count=4096
+[1078543595593] ncclAllReduce returned tid=6907 latency=9 us
+[1078543597957] ncclAllReduce called tid=6907 count=4096
+[1078543607824] ncclAllReduce returned tid=6907 latency=9 us
+[1078543610047] ncclAllReduce called tid=6907 count=4096
+[1078543620087] ncclAllReduce returned tid=6907 latency=10 us
+[1078543622368] ncclAllReduce called tid=6907 count=4096
+[1078543632375] ncclAllReduce returned tid=6907 latency=10 us
+[1078543634527] ncclAllReduce called tid=6907 count=4096
+[1078543644459] ncclAllReduce returned tid=6907 latency=9 us
+[1078543646871] ncclAllReduce called tid=6907 count=4096
+[1078543656897] ncclAllReduce returned tid=6907 latency=10 us
+[1078543659351] ncclAllReduce called tid=6907 count=4096
+[1078543668803] ncclAllReduce returned tid=6907 latency=9 us
+[1078543692334] ncclAllReduce called tid=6907 count=4096
+[1078543703172] ncclAllReduce returned tid=6907 latency=10 us
+[1078544767143] ncclAllReduce called tid=6907 count=4096
+[1078544774355] ncclAllReduce returned tid=6907 latency=7 us
+[1078544779708] ncclAllReduce called tid=6907 count=4096
+[1078544785236] ncclAllReduce returned tid=6907 latency=5 us
+[1078544787378] ncclAllReduce called tid=6907 count=4096
+[1078544792733] ncclAllReduce returned tid=6907 latency=5 us
+[1078544795065] ncclAllReduce called tid=6907 count=4096
+[1078544800163] ncclAllReduce returned tid=6907 latency=5 us
+[1078544802310] ncclAllReduce called tid=6907 count=4096
+[1078544807477] ncclAllReduce returned tid=6907 latency=5 us
+[1078544809505] ncclAllReduce called tid=6907 count=4096
+[1078544814749] ncclAllReduce returned tid=6907 latency=5 us
+[1078544817063] ncclAllReduce called tid=6907 count=4096
+[1078544822157] ncclAllReduce returned tid=6907 latency=5 us
+[1078544824296] ncclAllReduce called tid=6907 count=4096
+[1078544829742] ncclAllReduce returned tid=6907 latency=5 us
+[1078544831791] ncclAllReduce called tid=6907 count=4096
+[1078544837324] ncclAllReduce returned tid=6907 latency=5 us
+[1078544839400] ncclAllReduce called tid=6907 count=4096
+[1078544844638] ncclAllReduce returned tid=6907 latency=5 us
+[1078544846918] ncclAllReduce called tid=6907 count=4096
+[1078544852171] ncclAllReduce returned tid=6907 latency=5 us
+[1078544854258] ncclAllReduce called tid=6907 count=4096
+[1078544859307] ncclAllReduce returned tid=6907 latency=5 us
+[1078544861679] ncclAllReduce called tid=6907 count=4096
+[1078544877328] ncclAllReduce returned tid=6907 latency=15 us
+[1078544879307] ncclAllReduce called tid=6907 count=4096
+[1078544884316] ncclAllReduce returned tid=6907 latency=5 us
+[1078544886296] ncclAllReduce called tid=6907 count=4096
+[1078544891124] ncclAllReduce returned tid=6907 latency=4 us
+[1078544893385] ncclAllReduce called tid=6907 count=4096
+[1078544898596] ncclAllReduce returned tid=6907 latency=5 us
+[1078544900532] ncclAllReduce called tid=6907 count=4096
+[1078544905782] ncclAllReduce returned tid=6907 latency=5 us
+[1078544907759] ncclAllReduce called tid=6907 count=4096
+[1078544912948] ncclAllReduce returned tid=6907 latency=5 us
+[1078544914899] ncclAllReduce called tid=6907 count=4096
+[1078544919931] ncclAllReduce returned tid=6907 latency=5 us
+[1078544921909] ncclAllReduce called tid=6907 count=4096
+[1078544926732] ncclAllReduce returned tid=6907 latency=4 us
+[1078544928992] ncclAllReduce called tid=6907 count=4096
+[1078544933997] ncclAllReduce returned tid=6907 latency=5 us
+[1078544957292] ncclAllReduce called tid=6907 count=4096
+[1078544963148] ncclAllReduce returned tid=6907 latency=5 us
+[1078546047353] ncclAllReduce called tid=6907 count=8192
+[1078546059439] ncclAllReduce returned tid=6907 latency=12 us
+[1078546065763] ncclAllReduce called tid=6907 count=8192
+[1078546092186] ncclAllReduce returned tid=6907 latency=26 us
+[1078546094591] ncclAllReduce called tid=6907 count=8192
+[1078546105087] ncclAllReduce returned tid=6907 latency=10 us
+[1078546107250] ncclAllReduce called tid=6907 count=8192
+[1078546116816] ncclAllReduce returned tid=6907 latency=9 us
+[1078546119242] ncclAllReduce called tid=6907 count=8192
+[1078546128299] ncclAllReduce returned tid=6907 latency=9 us
+[1078546130582] ncclAllReduce called tid=6907 count=8192
+[1078546140667] ncclAllReduce returned tid=6907 latency=10 us
+[1078546142824] ncclAllReduce called tid=6907 count=8192
+[1078546153377] ncclAllReduce returned tid=6907 latency=10 us
+[1078546155802] ncclAllReduce called tid=6907 count=8192
+[1078546165756] ncclAllReduce returned tid=6907 latency=10 us
+[1078546168129] ncclAllReduce called tid=6907 count=8192
+[1078546177833] ncclAllReduce returned tid=6907 latency=9 us
+[1078546180459] ncclAllReduce called tid=6907 count=8192
+[1078546189859] ncclAllReduce returned tid=6907 latency=9 us
+[1078546192099] ncclAllReduce called tid=6907 count=8192
+[1078546201674] ncclAllReduce returned tid=6907 latency=9 us
+[1078546204089] ncclAllReduce called tid=6907 count=8192
+[1078546214580] ncclAllReduce returned tid=6907 latency=10 us
+[1078546216806] ncclAllReduce called tid=6907 count=8192
+[1078546226662] ncclAllReduce returned tid=6907 latency=9 us
+[1078546228930] ncclAllReduce called tid=6907 count=8192
+[1078546238993] ncclAllReduce returned tid=6907 latency=10 us
+[1078546241159] ncclAllReduce called tid=6907 count=8192
+[1078546250906] ncclAllReduce returned tid=6907 latency=9 us
+[1078546253341] ncclAllReduce called tid=6907 count=8192
+[1078546263041] ncclAllReduce returned tid=6907 latency=9 us
+[1078546265508] ncclAllReduce called tid=6907 count=8192
+[1078546275772] ncclAllReduce returned tid=6907 latency=10 us
+[1078546277971] ncclAllReduce called tid=6907 count=8192
+[1078546287921] ncclAllReduce returned tid=6907 latency=10 us
+[1078546290308] ncclAllReduce called tid=6907 count=8192
+[1078546300174] ncclAllReduce returned tid=6907 latency=9 us
+[1078546302360] ncclAllReduce called tid=6907 count=8192
+[1078546311855] ncclAllReduce returned tid=6907 latency=9 us
+[1078546314278] ncclAllReduce called tid=6907 count=8192
+[1078546323318] ncclAllReduce returned tid=6907 latency=9 us
+[1078546347144] ncclAllReduce called tid=6907 count=8192
+[1078546358804] ncclAllReduce returned tid=6907 latency=11 us
+[1078548440473] ncclAllReduce called tid=6907 count=8192
+[1078548452181] ncclAllReduce returned tid=6907 latency=11 us
+[1078548456920] ncclAllReduce called tid=6907 count=8192
+[1078548462331] ncclAllReduce returned tid=6907 latency=5 us
+[1078548464304] ncclAllReduce called tid=6907 count=8192
+[1078548469380] ncclAllReduce returned tid=6907 latency=5 us
+[1078548471567] ncclAllReduce called tid=6907 count=8192
+[1078548476917] ncclAllReduce returned tid=6907 latency=5 us
+[1078548478868] ncclAllReduce called tid=6907 count=8192
+[1078548484321] ncclAllReduce returned tid=6907 latency=5 us
+[1078548486508] ncclAllReduce called tid=6907 count=8192
+[1078548491621] ncclAllReduce returned tid=6907 latency=5 us
+[1078548494307] ncclAllReduce called tid=6907 count=8192
+[1078548500014] ncclAllReduce returned tid=6907 latency=5 us
+[1078548501946] ncclAllReduce called tid=6907 count=8192
+[1078548506912] ncclAllReduce returned tid=6907 latency=5 us
+[1078548508877] ncclAllReduce called tid=6907 count=8192
+[1078548513684] ncclAllReduce returned tid=6907 latency=4 us
+[1078548515713] ncclAllReduce called tid=6907 count=8192
+[1078548520641] ncclAllReduce returned tid=6907 latency=4 us
+[1078548522573] ncclAllReduce called tid=6907 count=8192
+[1078548527517] ncclAllReduce returned tid=6907 latency=4 us
+[1078548529489] ncclAllReduce called tid=6907 count=8192
+[1078548534829] ncclAllReduce returned tid=6907 latency=5 us
+[1078548536788] ncclAllReduce called tid=6907 count=8192
+[1078548542039] ncclAllReduce returned tid=6907 latency=5 us
+[1078548544020] ncclAllReduce called tid=6907 count=8192
+[1078548548909] ncclAllReduce returned tid=6907 latency=4 us
+[1078548550928] ncclAllReduce called tid=6907 count=8192
+[1078548556099] ncclAllReduce returned tid=6907 latency=5 us
+[1078548558031] ncclAllReduce called tid=6907 count=8192
+[1078548562999] ncclAllReduce returned tid=6907 latency=5 us
+[1078548564975] ncclAllReduce called tid=6907 count=8192
+[1078548569784] ncclAllReduce returned tid=6907 latency=4 us
+[1078548572118] ncclAllReduce called tid=6907 count=8192
+[1078548577026] ncclAllReduce returned tid=6907 latency=4 us
+[1078548578959] ncclAllReduce called tid=6907 count=8192
+[1078548583916] ncclAllReduce returned tid=6907 latency=5 us
+[1078548585886] ncclAllReduce called tid=6907 count=8192
+[1078548591000] ncclAllReduce returned tid=6907 latency=5 us
+[1078548593189] ncclAllReduce called tid=6907 count=8192
+[1078548598581] ncclAllReduce returned tid=6907 latency=5 us
+[1078548621748] ncclAllReduce called tid=6907 count=8192
+[1078548627459] ncclAllReduce returned tid=6907 latency=5 us
+[1078550717332] ncclAllReduce called tid=6907 count=16384
+[1078550733678] ncclAllReduce returned tid=6907 latency=16 us
+[1078550754412] ncclAllReduce called tid=6907 count=16384
+[1078550765181] ncclAllReduce returned tid=6907 latency=10 us
+[1078550767332] ncclAllReduce called tid=6907 count=16384
+[1078550777387] ncclAllReduce returned tid=6907 latency=10 us
+[1078550779758] ncclAllReduce called tid=6907 count=16384
+[1078550789380] ncclAllReduce returned tid=6907 latency=9 us
+[1078550791675] ncclAllReduce called tid=6907 count=16384
+[1078550801813] ncclAllReduce returned tid=6907 latency=10 us
+[1078550804096] ncclAllReduce called tid=6907 count=16384
+[1078550814615] ncclAllReduce returned tid=6907 latency=10 us
+[1078550816844] ncclAllReduce called tid=6907 count=16384
+[1078550826381] ncclAllReduce returned tid=6907 latency=9 us
+[1078550828787] ncclAllReduce called tid=6907 count=16384
+[1078550838611] ncclAllReduce returned tid=6907 latency=9 us
+[1078550840776] ncclAllReduce called tid=6907 count=16384
+[1078550850426] ncclAllReduce returned tid=6907 latency=9 us
+[1078550852649] ncclAllReduce called tid=6907 count=16384
+[1078550863669] ncclAllReduce returned tid=6907 latency=11 us
+[1078550866316] ncclAllReduce called tid=6907 count=16384
+[1078550876251] ncclAllReduce returned tid=6907 latency=9 us
+[1078550878482] ncclAllReduce called tid=6907 count=16384
+[1078550888220] ncclAllReduce returned tid=6907 latency=9 us
+[1078550890494] ncclAllReduce called tid=6907 count=16384
+[1078550900363] ncclAllReduce returned tid=6907 latency=9 us
+[1078550902520] ncclAllReduce called tid=6907 count=16384
+[1078550912292] ncclAllReduce returned tid=6907 latency=9 us
+[1078550914564] ncclAllReduce called tid=6907 count=16384
+[1078550923798] ncclAllReduce returned tid=6907 latency=9 us
+[1078550926141] ncclAllReduce called tid=6907 count=16384
+[1078550936102] ncclAllReduce returned tid=6907 latency=10 us
+[1078550938518] ncclAllReduce called tid=6907 count=16384
+[1078550948635] ncclAllReduce returned tid=6907 latency=10 us
+[1078550950944] ncclAllReduce called tid=6907 count=16384
+[1078550961105] ncclAllReduce returned tid=6907 latency=10 us
+[1078550963511] ncclAllReduce called tid=6907 count=16384
+[1078550973903] ncclAllReduce returned tid=6907 latency=10 us
+[1078550976397] ncclAllReduce called tid=6907 count=16384
+[1078550985771] ncclAllReduce returned tid=6907 latency=9 us
+[1078550988106] ncclAllReduce called tid=6907 count=16384
+[1078550997778] ncclAllReduce returned tid=6907 latency=9 us
+[1078551065927] ncclAllReduce called tid=6907 count=16384
+[1078551078355] ncclAllReduce returned tid=6907 latency=12 us
+[1078555200878] ncclAllReduce called tid=6907 count=16384
+[1078555212222] ncclAllReduce returned tid=6907 latency=11 us
+[1078555216841] ncclAllReduce called tid=6907 count=16384
+[1078555222129] ncclAllReduce returned tid=6907 latency=5 us
+[1078555224074] ncclAllReduce called tid=6907 count=16384
+[1078555229392] ncclAllReduce returned tid=6907 latency=5 us
+[1078555231371] ncclAllReduce called tid=6907 count=16384
+[1078555236641] ncclAllReduce returned tid=6907 latency=5 us
+[1078555238588] ncclAllReduce called tid=6907 count=16384
+[1078555243766] ncclAllReduce returned tid=6907 latency=5 us
+[1078555245904] ncclAllReduce called tid=6907 count=16384
+[1078555250937] ncclAllReduce returned tid=6907 latency=5 us
+[1078555252965] ncclAllReduce called tid=6907 count=16384
+[1078555257980] ncclAllReduce returned tid=6907 latency=5 us
+[1078555259901] ncclAllReduce called tid=6907 count=16384
+[1078555264904] ncclAllReduce returned tid=6907 latency=5 us
+[1078555266876] ncclAllReduce called tid=6907 count=16384
+[1078555271710] ncclAllReduce returned tid=6907 latency=4 us
+[1078555273737] ncclAllReduce called tid=6907 count=16384
+[1078555278677] ncclAllReduce returned tid=6907 latency=4 us
+[1078555280592] ncclAllReduce called tid=6907 count=16384
+[1078555285830] ncclAllReduce returned tid=6907 latency=5 us
+[1078555287788] ncclAllReduce called tid=6907 count=16384
+[1078555292968] ncclAllReduce returned tid=6907 latency=5 us
+[1078555294902] ncclAllReduce called tid=6907 count=16384
+[1078555299994] ncclAllReduce returned tid=6907 latency=5 us
+[1078555301959] ncclAllReduce called tid=6907 count=16384
+[1078555306844] ncclAllReduce returned tid=6907 latency=4 us
+[1078555308869] ncclAllReduce called tid=6907 count=16384
+[1078555313817] ncclAllReduce returned tid=6907 latency=4 us
+[1078555315735] ncclAllReduce called tid=6907 count=16384
+[1078555320755] ncclAllReduce returned tid=6907 latency=5 us
+[1078555322718] ncclAllReduce called tid=6907 count=16384
+[1078555327557] ncclAllReduce returned tid=6907 latency=4 us
+[1078555329588] ncclAllReduce called tid=6907 count=16384
+[1078555334587] ncclAllReduce returned tid=6907 latency=5 us
+[1078555336505] ncclAllReduce called tid=6907 count=16384
+[1078555341963] ncclAllReduce returned tid=6907 latency=5 us
+[1078555344842] ncclAllReduce called tid=6907 count=16384
+[1078555350030] ncclAllReduce returned tid=6907 latency=5 us
+[1078555352177] ncclAllReduce called tid=6907 count=16384
+[1078555357260] ncclAllReduce returned tid=6907 latency=5 us
+[1078555381213] ncclAllReduce called tid=6907 count=16384
+[1078555386724] ncclAllReduce returned tid=6907 latency=5 us
+[1078559508411] ncclAllReduce called tid=6907 count=32768
+[1078559524925] ncclAllReduce returned tid=6907 latency=16 us
+[1078559531862] ncclAllReduce called tid=6907 count=32768
+[1078559543039] ncclAllReduce returned tid=6907 latency=11 us
+[1078559545179] ncclAllReduce called tid=6907 count=32768
+[1078559554725] ncclAllReduce returned tid=6907 latency=9 us
+[1078559557025] ncclAllReduce called tid=6907 count=32768
+[1078559566768] ncclAllReduce returned tid=6907 latency=9 us
+[1078559568818] ncclAllReduce called tid=6907 count=32768
+[1078559578475] ncclAllReduce returned tid=6907 latency=9 us
+[1078559580605] ncclAllReduce called tid=6907 count=32768
+[1078559590884] ncclAllReduce returned tid=6907 latency=10 us
+[1078559592972] ncclAllReduce called tid=6907 count=32768
+[1078559603209] ncclAllReduce returned tid=6907 latency=10 us
+[1078559605334] ncclAllReduce called tid=6907 count=32768
+[1078559614394] ncclAllReduce returned tid=6907 latency=9 us
+[1078559616568] ncclAllReduce called tid=6907 count=32768
+[1078559625567] ncclAllReduce returned tid=6907 latency=9 us
+[1078559627630] ncclAllReduce called tid=6907 count=32768
+[1078559636978] ncclAllReduce returned tid=6907 latency=9 us
+[1078559639104] ncclAllReduce called tid=6907 count=32768
+[1078559648524] ncclAllReduce returned tid=6907 latency=9 us
+[1078559651613] ncclAllReduce called tid=6907 count=32768
+[1078559661716] ncclAllReduce returned tid=6907 latency=10 us
+[1078559663808] ncclAllReduce called tid=6907 count=32768
+[1078559673171] ncclAllReduce returned tid=6907 latency=9 us
+[1078559675359] ncclAllReduce called tid=6907 count=32768
+[1078559684974] ncclAllReduce returned tid=6907 latency=9 us
+[1078559687313] ncclAllReduce called tid=6907 count=32768
+[1078559712731] ncclAllReduce returned tid=6907 latency=25 us
+[1078559715002] ncclAllReduce called tid=6907 count=32768
+[1078559724943] ncclAllReduce returned tid=6907 latency=10 us
+[1078559727498] ncclAllReduce called tid=6907 count=32768
+[1078559737589] ncclAllReduce returned tid=6907 latency=10 us
+[1078559739785] ncclAllReduce called tid=6907 count=32768
+[1078559749722] ncclAllReduce returned tid=6907 latency=10 us
+[1078559752190] ncclAllReduce called tid=6907 count=32768
+[1078559761491] ncclAllReduce returned tid=6907 latency=9 us
+[1078559764096] ncclAllReduce called tid=6907 count=32768
+[1078559773749] ncclAllReduce returned tid=6907 latency=9 us
+[1078559775932] ncclAllReduce called tid=6907 count=32768
+[1078559785705] ncclAllReduce returned tid=6907 latency=9 us
+[1078559810026] ncclAllReduce called tid=6907 count=32768
+[1078559821415] ncclAllReduce returned tid=6907 latency=11 us
+[1078568021596] ncclAllReduce called tid=6907 count=32768
+[1078568033499] ncclAllReduce returned tid=6907 latency=12 us
+[1078568038283] ncclAllReduce called tid=6907 count=32768
+[1078568043611] ncclAllReduce returned tid=6907 latency=5 us
+[1078568045694] ncclAllReduce called tid=6907 count=32768
+[1078568050978] ncclAllReduce returned tid=6907 latency=5 us
+[1078568053074] ncclAllReduce called tid=6907 count=32768
+[1078568058257] ncclAllReduce returned tid=6907 latency=5 us
+[1078568060213] ncclAllReduce called tid=6907 count=32768
+[1078568065273] ncclAllReduce returned tid=6907 latency=5 us
+[1078568067381] ncclAllReduce called tid=6907 count=32768
+[1078568072545] ncclAllReduce returned tid=6907 latency=5 us
+[1078568074518] ncclAllReduce called tid=6907 count=32768
+[1078568079503] ncclAllReduce returned tid=6907 latency=5 us
+[1078568081708] ncclAllReduce called tid=6907 count=32768
+[1078568086779] ncclAllReduce returned tid=6907 latency=5 us
+[1078568088704] ncclAllReduce called tid=6907 count=32768
+[1078568093858] ncclAllReduce returned tid=6907 latency=5 us
+[1078568095990] ncclAllReduce called tid=6907 count=32768
+[1078568101114] ncclAllReduce returned tid=6907 latency=5 us
+[1078568103140] ncclAllReduce called tid=6907 count=32768
+[1078568108350] ncclAllReduce returned tid=6907 latency=5 us
+[1078568110285] ncclAllReduce called tid=6907 count=32768
+[1078568115290] ncclAllReduce returned tid=6907 latency=5 us
+[1078568117256] ncclAllReduce called tid=6907 count=32768
+[1078568122162] ncclAllReduce returned tid=6907 latency=4 us
+[1078568124116] ncclAllReduce called tid=6907 count=32768
+[1078568129088] ncclAllReduce returned tid=6907 latency=5 us
+[1078568131063] ncclAllReduce called tid=6907 count=32768
+[1078568135894] ncclAllReduce returned tid=6907 latency=4 us
+[1078568137909] ncclAllReduce called tid=6907 count=32768
+[1078568142830] ncclAllReduce returned tid=6907 latency=4 us
+[1078568144755] ncclAllReduce called tid=6907 count=32768
+[1078568149736] ncclAllReduce returned tid=6907 latency=5 us
+[1078568151722] ncclAllReduce called tid=6907 count=32768
+[1078568156842] ncclAllReduce returned tid=6907 latency=5 us
+[1078568158861] ncclAllReduce called tid=6907 count=32768
+[1078568164077] ncclAllReduce returned tid=6907 latency=5 us
+[1078568166952] ncclAllReduce called tid=6907 count=32768
+[1078568171968] ncclAllReduce returned tid=6907 latency=5 us
+[1078568174150] ncclAllReduce called tid=6907 count=32768
+[1078568179043] ncclAllReduce returned tid=6907 latency=4 us
+[1078568203329] ncclAllReduce called tid=6907 count=32768
+[1078568208953] ncclAllReduce returned tid=6907 latency=5 us
+[1078576401020] ncclAllReduce called tid=6907 count=65536
+[1078576418856] ncclAllReduce returned tid=6907 latency=17 us
+[1078576425271] ncclAllReduce called tid=6907 count=65536
+[1078576435239] ncclAllReduce returned tid=6907 latency=10 us
+[1078576437379] ncclAllReduce called tid=6907 count=65536
+[1078576446278] ncclAllReduce returned tid=6907 latency=8 us
+[1078576448556] ncclAllReduce called tid=6907 count=65536
+[1078576458964] ncclAllReduce returned tid=6907 latency=10 us
+[1078576461004] ncclAllReduce called tid=6907 count=65536
+[1078576470884] ncclAllReduce returned tid=6907 latency=9 us
+[1078576473132] ncclAllReduce called tid=6907 count=65536
+[1078576482771] ncclAllReduce returned tid=6907 latency=9 us
+[1078576484915] ncclAllReduce called tid=6907 count=65536
+[1078576494881] ncclAllReduce returned tid=6907 latency=10 us
+[1078576497124] ncclAllReduce called tid=6907 count=65536
+[1078576506351] ncclAllReduce returned tid=6907 latency=9 us
+[1078576508443] ncclAllReduce called tid=6907 count=65536
+[1078576517946] ncclAllReduce returned tid=6907 latency=9 us
+[1078576520043] ncclAllReduce called tid=6907 count=65536
+[1078576529586] ncclAllReduce returned tid=6907 latency=9 us
+[1078576531738] ncclAllReduce called tid=6907 count=65536
+[1078576540917] ncclAllReduce returned tid=6907 latency=9 us
+[1078576543989] ncclAllReduce called tid=6907 count=65536
+[1078576553395] ncclAllReduce returned tid=6907 latency=9 us
+[1078576555625] ncclAllReduce called tid=6907 count=65536
+[1078576564708] ncclAllReduce returned tid=6907 latency=9 us
+[1078576566817] ncclAllReduce called tid=6907 count=65536
+[1078576576312] ncclAllReduce returned tid=6907 latency=9 us
+[1078576578463] ncclAllReduce called tid=6907 count=65536
+[1078576588408] ncclAllReduce returned tid=6907 latency=10 us
+[1078576606271] ncclAllReduce called tid=6907 count=65536
+[1078576616388] ncclAllReduce returned tid=6907 latency=10 us
+[1078576618845] ncclAllReduce called tid=6907 count=65536
+[1078576628654] ncclAllReduce returned tid=6907 latency=9 us
+[1078576630895] ncclAllReduce called tid=6907 count=65536
+[1078576640426] ncclAllReduce returned tid=6907 latency=9 us
+[1078576643037] ncclAllReduce called tid=6907 count=65536
+[1078576652487] ncclAllReduce returned tid=6907 latency=9 us
+[1078576654757] ncclAllReduce called tid=6907 count=65536
+[1078576664422] ncclAllReduce returned tid=6907 latency=9 us
+[1078576666779] ncclAllReduce called tid=6907 count=65536
+[1078576676671] ncclAllReduce returned tid=6907 latency=9 us
+[1078576701242] ncclAllReduce called tid=6907 count=65536
+[1078576712237] ncclAllReduce returned tid=6907 latency=11 us
+[1078593066870] ncclAllReduce called tid=6907 count=65536
+[1078593083061] ncclAllReduce returned tid=6907 latency=17 us
+[1078593089692] ncclAllReduce called tid=6907 count=65536
+[1078593095599] ncclAllReduce returned tid=6907 latency=5 us
+[1078593097742] ncclAllReduce called tid=6907 count=65536
+[1078593103254] ncclAllReduce returned tid=6907 latency=5 us
+[1078593105552] ncclAllReduce called tid=6907 count=65536
+[1078593110935] ncclAllReduce returned tid=6907 latency=5 us
+[1078593113117] ncclAllReduce called tid=6907 count=65536
+[1078593118588] ncclAllReduce returned tid=6907 latency=5 us
+[1078593120830] ncclAllReduce called tid=6907 count=65536
+[1078593126602] ncclAllReduce returned tid=6907 latency=5 us
+[1078593128718] ncclAllReduce called tid=6907 count=65536
+[1078593134480] ncclAllReduce returned tid=6907 latency=5 us
+[1078593137006] ncclAllReduce called tid=6907 count=65536
+[1078593142652] ncclAllReduce returned tid=6907 latency=5 us
+[1078593144771] ncclAllReduce called tid=6907 count=65536
+[1078593149988] ncclAllReduce returned tid=6907 latency=5 us
+[1078593152184] ncclAllReduce called tid=6907 count=65536
+[1078593157492] ncclAllReduce returned tid=6907 latency=5 us
+[1078593170021] ncclAllReduce called tid=6907 count=65536
+[1078593175426] ncclAllReduce returned tid=6907 latency=5 us
+[1078593177499] ncclAllReduce called tid=6907 count=65536
+[1078593182566] ncclAllReduce returned tid=6907 latency=5 us
+[1078593184700] ncclAllReduce called tid=6907 count=65536
+[1078593189868] ncclAllReduce returned tid=6907 latency=5 us
+[1078593191899] ncclAllReduce called tid=6907 count=65536
+[1078593197366] ncclAllReduce returned tid=6907 latency=5 us
+[1078593199448] ncclAllReduce called tid=6907 count=65536
+[1078593204890] ncclAllReduce returned tid=6907 latency=5 us
+[1078593207181] ncclAllReduce called tid=6907 count=65536
+[1078593213413] ncclAllReduce returned tid=6907 latency=6 us
+[1078593215487] ncclAllReduce called tid=6907 count=65536
+[1078593220801] ncclAllReduce returned tid=6907 latency=5 us
+[1078593222933] ncclAllReduce called tid=6907 count=65536
+[1078593228092] ncclAllReduce returned tid=6907 latency=5 us
+[1078593230142] ncclAllReduce called tid=6907 count=65536
+[1078593235380] ncclAllReduce returned tid=6907 latency=5 us
+[1078593237458] ncclAllReduce called tid=6907 count=65536
+[1078593242530] ncclAllReduce returned tid=6907 latency=5 us
+[1078593244660] ncclAllReduce called tid=6907 count=65536
+[1078593249824] ncclAllReduce returned tid=6907 latency=5 us
+[1078593275074] ncclAllReduce called tid=6907 count=65536
+[1078593281181] ncclAllReduce returned tid=6907 latency=6 us
+[1078609622651] ncclAllReduce called tid=6907 count=131072
+[1078609643396] ncclAllReduce returned tid=6907 latency=21 us
+[1078609650637] ncclAllReduce called tid=6907 count=131072
+[1078609661122] ncclAllReduce returned tid=6907 latency=10 us
+[1078609663223] ncclAllReduce called tid=6907 count=131072
+[1078609673170] ncclAllReduce returned tid=6907 latency=9 us
+[1078609675644] ncclAllReduce called tid=6907 count=131072
+[1078609685591] ncclAllReduce returned tid=6907 latency=10 us
+[1078609687757] ncclAllReduce called tid=6907 count=131072
+[1078609697399] ncclAllReduce returned tid=6907 latency=9 us
+[1078609699598] ncclAllReduce called tid=6907 count=131072
+[1078609709392] ncclAllReduce returned tid=6907 latency=9 us
+[1078609711578] ncclAllReduce called tid=6907 count=131072
+[1078609721997] ncclAllReduce returned tid=6907 latency=10 us
+[1078609724234] ncclAllReduce called tid=6907 count=131072
+[1078609733805] ncclAllReduce returned tid=6907 latency=9 us
+[1078609735987] ncclAllReduce called tid=6907 count=131072
+[1078609745279] ncclAllReduce returned tid=6907 latency=9 us
+[1078609747520] ncclAllReduce called tid=6907 count=131072
+[1078609757431] ncclAllReduce returned tid=6907 latency=9 us
+[1078609760094] ncclAllReduce called tid=6907 count=131072
+[1078609770784] ncclAllReduce returned tid=6907 latency=10 us
+[1078609773092] ncclAllReduce called tid=6907 count=131072
+[1078609782602] ncclAllReduce returned tid=6907 latency=9 us
+[1078609784815] ncclAllReduce called tid=6907 count=131072
+[1078609793751] ncclAllReduce returned tid=6907 latency=9 us
+[1078609795824] ncclAllReduce called tid=6907 count=131072
+[1078609805129] ncclAllReduce returned tid=6907 latency=9 us
+[1078609823145] ncclAllReduce called tid=6907 count=131072
+[1078609833397] ncclAllReduce returned tid=6907 latency=10 us
+[1078609835854] ncclAllReduce called tid=6907 count=131072
+[1078609846352] ncclAllReduce returned tid=6907 latency=10 us
+[1078609848609] ncclAllReduce called tid=6907 count=131072
+[1078609858983] ncclAllReduce returned tid=6907 latency=10 us
+[1078609861570] ncclAllReduce called tid=6907 count=131072
+[1078609871177] ncclAllReduce returned tid=6907 latency=9 us
+[1078609873348] ncclAllReduce called tid=6907 count=131072
+[1078609883200] ncclAllReduce returned tid=6907 latency=9 us
+[1078609885664] ncclAllReduce called tid=6907 count=131072
+[1078609895511] ncclAllReduce returned tid=6907 latency=9 us
+[1078609897824] ncclAllReduce called tid=6907 count=131072
+[1078609908653] ncclAllReduce returned tid=6907 latency=10 us
+[1078609936311] ncclAllReduce called tid=6907 count=131072
+[1078609947428] ncclAllReduce returned tid=6907 latency=11 us
+[1078626282031] ncclAllReduce called tid=6907 count=131072
+[1078626293051] ncclAllReduce returned tid=6907 latency=11 us
+[1078626297543] ncclAllReduce called tid=6907 count=131072
+[1078626302879] ncclAllReduce returned tid=6907 latency=5 us
+[1078626304906] ncclAllReduce called tid=6907 count=131072
+[1078626310079] ncclAllReduce returned tid=6907 latency=5 us
+[1078626312214] ncclAllReduce called tid=6907 count=131072
+[1078626317423] ncclAllReduce returned tid=6907 latency=5 us
+[1078626319381] ncclAllReduce called tid=6907 count=131072
+[1078626324395] ncclAllReduce returned tid=6907 latency=5 us
+[1078626326565] ncclAllReduce called tid=6907 count=131072
+[1078626331970] ncclAllReduce returned tid=6907 latency=5 us
+[1078626333911] ncclAllReduce called tid=6907 count=131072
+[1078626339398] ncclAllReduce returned tid=6907 latency=5 us
+[1078626341515] ncclAllReduce called tid=6907 count=131072
+[1078626346448] ncclAllReduce returned tid=6907 latency=4 us
+[1078626348459] ncclAllReduce called tid=6907 count=131072
+[1078626353471] ncclAllReduce returned tid=6907 latency=5 us
+[1078626355414] ncclAllReduce called tid=6907 count=131072
+[1078626360390] ncclAllReduce returned tid=6907 latency=5 us
+[1078626362353] ncclAllReduce called tid=6907 count=131072
+[1078626367280] ncclAllReduce returned tid=6907 latency=4 us
+[1078626369218] ncclAllReduce called tid=6907 count=131072
+[1078626374248] ncclAllReduce returned tid=6907 latency=5 us
+[1078626376217] ncclAllReduce called tid=6907 count=131072
+[1078626381067] ncclAllReduce returned tid=6907 latency=4 us
+[1078626383080] ncclAllReduce called tid=6907 count=131072
+[1078626388297] ncclAllReduce returned tid=6907 latency=5 us
+[1078626390225] ncclAllReduce called tid=6907 count=131072
+[1078626395549] ncclAllReduce returned tid=6907 latency=5 us
+[1078626397514] ncclAllReduce called tid=6907 count=131072
+[1078626402436] ncclAllReduce returned tid=6907 latency=4 us
+[1078626404456] ncclAllReduce called tid=6907 count=131072
+[1078626409487] ncclAllReduce returned tid=6907 latency=5 us
+[1078626411415] ncclAllReduce called tid=6907 count=131072
+[1078626416404] ncclAllReduce returned tid=6907 latency=5 us
+[1078626419051] ncclAllReduce called tid=6907 count=131072
+[1078626424430] ncclAllReduce returned tid=6907 latency=5 us
+[1078626426373] ncclAllReduce called tid=6907 count=131072
+[1078626431606] ncclAllReduce returned tid=6907 latency=5 us
+[1078626433572] ncclAllReduce called tid=6907 count=131072
+[1078626438424] ncclAllReduce returned tid=6907 latency=4 us
+[1078626463435] ncclAllReduce called tid=6907 count=131072
+[1078626469246] ncclAllReduce returned tid=6907 latency=5 us
+[1078642807836] ncclAllReduce called tid=6907 count=262144
+[1078642825358] ncclAllReduce returned tid=6907 latency=17 us
+[1078642832583] ncclAllReduce called tid=6907 count=262144
+[1078642842298] ncclAllReduce returned tid=6907 latency=9 us
+[1078642844423] ncclAllReduce called tid=6907 count=262144
+[1078642853839] ncclAllReduce returned tid=6907 latency=9 us
+[1078642856084] ncclAllReduce called tid=6907 count=262144
+[1078642865959] ncclAllReduce returned tid=6907 latency=9 us
+[1078642868017] ncclAllReduce called tid=6907 count=262144
+[1078642877371] ncclAllReduce returned tid=6907 latency=9 us
+[1078642879454] ncclAllReduce called tid=6907 count=262144
+[1078642888898] ncclAllReduce returned tid=6907 latency=9 us
+[1078642890931] ncclAllReduce called tid=6907 count=262144
+[1078642900790] ncclAllReduce returned tid=6907 latency=9 us
+[1078642902874] ncclAllReduce called tid=6907 count=262144
+[1078642912156] ncclAllReduce returned tid=6907 latency=9 us
+[1078642914280] ncclAllReduce called tid=6907 count=262144
+[1078642924132] ncclAllReduce returned tid=6907 latency=9 us
+[1078642926156] ncclAllReduce called tid=6907 count=262144
+[1078642935810] ncclAllReduce returned tid=6907 latency=9 us
+[1078642937881] ncclAllReduce called tid=6907 count=262144
+[1078642947228] ncclAllReduce returned tid=6907 latency=9 us
+[1078642950252] ncclAllReduce called tid=6907 count=262144
+[1078642959760] ncclAllReduce returned tid=6907 latency=9 us
+[1078642962122] ncclAllReduce called tid=6907 count=262144
+[1078642971422] ncclAllReduce returned tid=6907 latency=9 us
+[1078642973509] ncclAllReduce called tid=6907 count=262144
+[1078642983833] ncclAllReduce returned tid=6907 latency=10 us
+[1078642985872] ncclAllReduce called tid=6907 count=262144
+[1078643024404] ncclAllReduce returned tid=6907 latency=38 us
+[1078643026864] ncclAllReduce called tid=6907 count=262144
+[1078643036900] ncclAllReduce returned tid=6907 latency=10 us
+[1078643039130] ncclAllReduce called tid=6907 count=262144
+[1078643048811] ncclAllReduce returned tid=6907 latency=9 us
+[1078643050935] ncclAllReduce called tid=6907 count=262144
+[1078643060450] ncclAllReduce returned tid=6907 latency=9 us
+[1078643062636] ncclAllReduce called tid=6907 count=262144
+[1078643072291] ncclAllReduce returned tid=6907 latency=9 us
+[1078643074547] ncclAllReduce called tid=6907 count=262144
+[1078643084186] ncclAllReduce returned tid=6907 latency=9 us
+[1078643086336] ncclAllReduce called tid=6907 count=262144
+[1078643096478] ncclAllReduce returned tid=6907 latency=10 us
+[1078643127792] ncclAllReduce called tid=6907 count=262144
+[1078643138579] ncclAllReduce returned tid=6907 latency=10 us
+[1078659476199] ncclAllReduce called tid=6907 count=262144
+[1078659486572] ncclAllReduce returned tid=6907 latency=10 us
+[1078659491183] ncclAllReduce called tid=6907 count=262144
+[1078659496494] ncclAllReduce returned tid=6907 latency=5 us
+[1078659498553] ncclAllReduce called tid=6907 count=262144
+[1078659503684] ncclAllReduce returned tid=6907 latency=5 us
+[1078659505854] ncclAllReduce called tid=6907 count=262144
+[1078659511013] ncclAllReduce returned tid=6907 latency=5 us
+[1078659512986] ncclAllReduce called tid=6907 count=262144
+[1078659518069] ncclAllReduce returned tid=6907 latency=5 us
+[1078659520181] ncclAllReduce called tid=6907 count=262144
+[1078659525571] ncclAllReduce returned tid=6907 latency=5 us
+[1078659527534] ncclAllReduce called tid=6907 count=262144
+[1078659532827] ncclAllReduce returned tid=6907 latency=5 us
+[1078659534856] ncclAllReduce called tid=6907 count=262144
+[1078659539843] ncclAllReduce returned tid=6907 latency=5 us
+[1078659541786] ncclAllReduce called tid=6907 count=262144
+[1078659546776] ncclAllReduce returned tid=6907 latency=5 us
+[1078659548755] ncclAllReduce called tid=6907 count=262144
+[1078659553593] ncclAllReduce returned tid=6907 latency=4 us
+[1078659555626] ncclAllReduce called tid=6907 count=262144
+[1078659560568] ncclAllReduce returned tid=6907 latency=4 us
+[1078659562506] ncclAllReduce called tid=6907 count=262144
+[1078659567453] ncclAllReduce returned tid=6907 latency=4 us
+[1078659569423] ncclAllReduce called tid=6907 count=262144
+[1078659574335] ncclAllReduce returned tid=6907 latency=4 us
+[1078659576284] ncclAllReduce called tid=6907 count=262144
+[1078659581510] ncclAllReduce returned tid=6907 latency=5 us
+[1078659583488] ncclAllReduce called tid=6907 count=262144
+[1078659588633] ncclAllReduce returned tid=6907 latency=5 us
+[1078659590647] ncclAllReduce called tid=6907 count=262144
+[1078659595679] ncclAllReduce returned tid=6907 latency=5 us
+[1078659597617] ncclAllReduce called tid=6907 count=262144
+[1078659602615] ncclAllReduce returned tid=6907 latency=5 us
+[1078659604594] ncclAllReduce called tid=6907 count=262144
+[1078659609428] ncclAllReduce returned tid=6907 latency=4 us
+[1078659611453] ncclAllReduce called tid=6907 count=262144
+[1078659616609] ncclAllReduce returned tid=6907 latency=5 us
+[1078659619457] ncclAllReduce called tid=6907 count=262144
+[1078659624413] ncclAllReduce returned tid=6907 latency=4 us
+[1078659626602] ncclAllReduce called tid=6907 count=262144
+[1078659631497] ncclAllReduce returned tid=6907 latency=4 us
+[1078659658525] ncclAllReduce called tid=6907 count=262144
+[1078659664371] ncclAllReduce returned tid=6907 latency=5 us
+[1078676011791] ncclAllReduce called tid=6907 count=524288
+[1078676031133] ncclAllReduce returned tid=6907 latency=19 us
+[1078676040130] ncclAllReduce called tid=6907 count=524288
+[1078676050598] ncclAllReduce returned tid=6907 latency=10 us
+[1078676052725] ncclAllReduce called tid=6907 count=524288
+[1078676062363] ncclAllReduce returned tid=6907 latency=9 us
+[1078676064523] ncclAllReduce called tid=6907 count=524288
+[1078676074325] ncclAllReduce returned tid=6907 latency=9 us
+[1078676076463] ncclAllReduce called tid=6907 count=524288
+[1078676086285] ncclAllReduce returned tid=6907 latency=9 us
+[1078676088661] ncclAllReduce called tid=6907 count=524288
+[1078676098713] ncclAllReduce returned tid=6907 latency=10 us
+[1078676100751] ncclAllReduce called tid=6907 count=524288
+[1078676110967] ncclAllReduce returned tid=6907 latency=10 us
+[1078676113269] ncclAllReduce called tid=6907 count=524288
+[1078676122881] ncclAllReduce returned tid=6907 latency=9 us
+[1078676125040] ncclAllReduce called tid=6907 count=524288
+[1078676134768] ncclAllReduce returned tid=6907 latency=9 us
+[1078676136810] ncclAllReduce called tid=6907 count=524288
+[1078676146678] ncclAllReduce returned tid=6907 latency=9 us
+[1078676148778] ncclAllReduce called tid=6907 count=524288
+[1078676158042] ncclAllReduce returned tid=6907 latency=9 us
+[1078676160100] ncclAllReduce called tid=6907 count=524288
+[1078676170947] ncclAllReduce returned tid=6907 latency=10 us
+[1078676174085] ncclAllReduce called tid=6907 count=524288
+[1078676199099] ncclAllReduce returned tid=6907 latency=25 us
+[1078676201342] ncclAllReduce called tid=6907 count=524288
+[1078676211771] ncclAllReduce returned tid=6907 latency=10 us
+[1078676213933] ncclAllReduce called tid=6907 count=524288
+[1078676223888] ncclAllReduce returned tid=6907 latency=10 us
+[1078676226127] ncclAllReduce called tid=6907 count=524288
+[1078676236120] ncclAllReduce returned tid=6907 latency=10 us
+[1078676238353] ncclAllReduce called tid=6907 count=524288
+[1078676248313] ncclAllReduce returned tid=6907 latency=10 us
+[1078676250549] ncclAllReduce called tid=6907 count=524288
+[1078676260263] ncclAllReduce returned tid=6907 latency=9 us
+[1078676262509] ncclAllReduce called tid=6907 count=524288
+[1078676272372] ncclAllReduce returned tid=6907 latency=9 us
+[1078676274570] ncclAllReduce called tid=6907 count=524288
+[1078676284610] ncclAllReduce returned tid=6907 latency=10 us
+[1078676287083] ncclAllReduce called tid=6907 count=524288
+[1078676297309] ncclAllReduce returned tid=6907 latency=10 us
+[1078676335935] ncclAllReduce called tid=6907 count=524288
+[1078676347004] ncclAllReduce returned tid=6907 latency=11 us
+[1078692698399] ncclAllReduce called tid=6907 count=524288
+[1078692710694] ncclAllReduce returned tid=6907 latency=12 us
+[1078692715731] ncclAllReduce called tid=6907 count=524288
+[1078692721110] ncclAllReduce returned tid=6907 latency=5 us
+[1078692723137] ncclAllReduce called tid=6907 count=524288
+[1078692728207] ncclAllReduce returned tid=6907 latency=5 us
+[1078692730318] ncclAllReduce called tid=6907 count=524288
+[1078692735528] ncclAllReduce returned tid=6907 latency=5 us
+[1078692737527] ncclAllReduce called tid=6907 count=524288
+[1078692742460] ncclAllReduce returned tid=6907 latency=5 us
+[1078692744663] ncclAllReduce called tid=6907 count=524288
+[1078692749997] ncclAllReduce returned tid=6907 latency=5 us
+[1078692751963] ncclAllReduce called tid=6907 count=524288
+[1078692757417] ncclAllReduce returned tid=6907 latency=5 us
+[1078692759574] ncclAllReduce called tid=6907 count=524288
+[1078692764496] ncclAllReduce returned tid=6907 latency=4 us
+[1078692766553] ncclAllReduce called tid=6907 count=524288
+[1078692771507] ncclAllReduce returned tid=6907 latency=4 us
+[1078692773454] ncclAllReduce called tid=6907 count=524288
+[1078692778411] ncclAllReduce returned tid=6907 latency=5 us
+[1078692780390] ncclAllReduce called tid=6907 count=524288
+[1078692785294] ncclAllReduce returned tid=6907 latency=4 us
+[1078692787243] ncclAllReduce called tid=6907 count=524288
+[1078692792224] ncclAllReduce returned tid=6907 latency=5 us
+[1078692794209] ncclAllReduce called tid=6907 count=524288
+[1078692799033] ncclAllReduce returned tid=6907 latency=4 us
+[1078692801059] ncclAllReduce called tid=6907 count=524288
+[1078692806238] ncclAllReduce returned tid=6907 latency=5 us
+[1078692808174] ncclAllReduce called tid=6907 count=524288
+[1078692813462] ncclAllReduce returned tid=6907 latency=5 us
+[1078692815448] ncclAllReduce called tid=6907 count=524288
+[1078692820383] ncclAllReduce returned tid=6907 latency=4 us
+[1078692822422] ncclAllReduce called tid=6907 count=524288
+[1078692827367] ncclAllReduce returned tid=6907 latency=4 us
+[1078692829302] ncclAllReduce called tid=6907 count=524288
+[1078692834245] ncclAllReduce returned tid=6907 latency=4 us
+[1078692836918] ncclAllReduce called tid=6907 count=524288
+[1078692842234] ncclAllReduce returned tid=6907 latency=5 us
+[1078692844433] ncclAllReduce called tid=6907 count=524288
+[1078692849395] ncclAllReduce returned tid=6907 latency=5 us
+[1078692851383] ncclAllReduce called tid=6907 count=524288
+[1078692856202] ncclAllReduce returned tid=6907 latency=4 us
+[1078692888264] ncclAllReduce called tid=6907 count=524288
+[1078692894001] ncclAllReduce returned tid=6907 latency=5 us
+[1078709251953] ncclAllReduce called tid=6907 count=1048576
+[1078709271511] ncclAllReduce returned tid=6907 latency=19 us
+[1078709287915] ncclAllReduce called tid=6907 count=1048576
+[1078709298756] ncclAllReduce returned tid=6907 latency=10 us
+[1078709300998] ncclAllReduce called tid=6907 count=1048576
+[1078709311967] ncclAllReduce returned tid=6907 latency=11 us
+[1078709314264] ncclAllReduce called tid=6907 count=1048576
+[1078709324861] ncclAllReduce returned tid=6907 latency=10 us
+[1078709327193] ncclAllReduce called tid=6907 count=1048576
+[1078709337920] ncclAllReduce returned tid=6907 latency=10 us
+[1078709340129] ncclAllReduce called tid=6907 count=1048576
+[1078709350690] ncclAllReduce returned tid=6907 latency=10 us
+[1078709352990] ncclAllReduce called tid=6907 count=1048576
+[1078709363490] ncclAllReduce returned tid=6907 latency=10 us
+[1078709365807] ncclAllReduce called tid=6907 count=1048576
+[1078709375433] ncclAllReduce returned tid=6907 latency=9 us
+[1078709377636] ncclAllReduce called tid=6907 count=1048576
+[1078709388574] ncclAllReduce returned tid=6907 latency=10 us
+[1078709390838] ncclAllReduce called tid=6907 count=1048576
+[1078709400587] ncclAllReduce returned tid=6907 latency=9 us
+[1078709403713] ncclAllReduce called tid=6907 count=1048576
+[1078709413854] ncclAllReduce returned tid=6907 latency=10 us
+[1078709416335] ncclAllReduce called tid=6907 count=1048576
+[1078709426511] ncclAllReduce returned tid=6907 latency=10 us
+[1078709428842] ncclAllReduce called tid=6907 count=1048576
+[1078709449560] ncclAllReduce returned tid=6907 latency=20 us
+[1078709451702] ncclAllReduce called tid=6907 count=1048576
+[1078709462335] ncclAllReduce returned tid=6907 latency=10 us
+[1078709464535] ncclAllReduce called tid=6907 count=1048576
+[1078709474457] ncclAllReduce returned tid=6907 latency=9 us
+[1078709476945] ncclAllReduce called tid=6907 count=1048576
+[1078709487146] ncclAllReduce returned tid=6907 latency=10 us
+[1078709489330] ncclAllReduce called tid=6907 count=1048576
+[1078709499216] ncclAllReduce returned tid=6907 latency=9 us
+[1078709501674] ncclAllReduce called tid=6907 count=1048576
+[1078709510955] ncclAllReduce returned tid=6907 latency=9 us
+[1078709513119] ncclAllReduce called tid=6907 count=1048576
+[1078709523595] ncclAllReduce returned tid=6907 latency=10 us
+[1078709525978] ncclAllReduce called tid=6907 count=1048576
+[1078709535314] ncclAllReduce returned tid=6907 latency=9 us
+[1078709537565] ncclAllReduce called tid=6907 count=1048576
+[1078709547798] ncclAllReduce returned tid=6907 latency=10 us
+[1078709608758] ncclAllReduce called tid=6907 count=1048576
+[1078709619900] ncclAllReduce returned tid=6907 latency=11 us
+[1078725991739] ncclAllReduce called tid=6907 count=1048576
+[1078726015116] ncclAllReduce returned tid=6907 latency=23 us
+[1078726020252] ncclAllReduce called tid=6907 count=1048576
+[1078726025857] ncclAllReduce returned tid=6907 latency=5 us
+[1078726027986] ncclAllReduce called tid=6907 count=1048576
+[1078726033265] ncclAllReduce returned tid=6907 latency=5 us
+[1078726035592] ncclAllReduce called tid=6907 count=1048576
+[1078726040987] ncclAllReduce returned tid=6907 latency=5 us
+[1078726043032] ncclAllReduce called tid=6907 count=1048576
+[1078726049107] ncclAllReduce returned tid=6907 latency=6 us
+[1078726051343] ncclAllReduce called tid=6907 count=1048576
+[1078726056792] ncclAllReduce returned tid=6907 latency=5 us
+[1078726058837] ncclAllReduce called tid=6907 count=1048576
+[1078726064274] ncclAllReduce returned tid=6907 latency=5 us
+[1078726066356] ncclAllReduce called tid=6907 count=1048576
+[1078726071427] ncclAllReduce returned tid=6907 latency=5 us
+[1078726073551] ncclAllReduce called tid=6907 count=1048576
+[1078726078749] ncclAllReduce returned tid=6907 latency=5 us
+[1078726080777] ncclAllReduce called tid=6907 count=1048576
+[1078726086020] ncclAllReduce returned tid=6907 latency=5 us
+[1078726088104] ncclAllReduce called tid=6907 count=1048576
+[1078726093189] ncclAllReduce returned tid=6907 latency=5 us
+[1078726095315] ncclAllReduce called tid=6907 count=1048576
+[1078726100513] ncclAllReduce returned tid=6907 latency=5 us
+[1078726102535] ncclAllReduce called tid=6907 count=1048576
+[1078726108426] ncclAllReduce returned tid=6907 latency=5 us
+[1078726110520] ncclAllReduce called tid=6907 count=1048576
+[1078726115817] ncclAllReduce returned tid=6907 latency=5 us
+[1078726117863] ncclAllReduce called tid=6907 count=1048576
+[1078726123136] ncclAllReduce returned tid=6907 latency=5 us
+[1078726125212] ncclAllReduce called tid=6907 count=1048576
+[1078726130329] ncclAllReduce returned tid=6907 latency=5 us
+[1078726133383] ncclAllReduce called tid=6907 count=1048576
+[1078726138574] ncclAllReduce returned tid=6907 latency=5 us
+[1078726140783] ncclAllReduce called tid=6907 count=1048576
+[1078726146033] ncclAllReduce returned tid=6907 latency=5 us
+[1078726148118] ncclAllReduce called tid=6907 count=1048576
+[1078726153166] ncclAllReduce returned tid=6907 latency=5 us
+[1078726155289] ncclAllReduce called tid=6907 count=1048576
+[1078726160478] ncclAllReduce returned tid=6907 latency=5 us
+[1078726162510] ncclAllReduce called tid=6907 count=1048576
+[1078726168416] ncclAllReduce returned tid=6907 latency=5 us
+[1078726213813] ncclAllReduce called tid=6907 count=1048576
+[1078726219943] ncclAllReduce returned tid=6907 latency=6 us
+[1078742440835] ncclAllReduce called tid=6907 count=2097152
+[1078742458180] ncclAllReduce returned tid=6907 latency=17 us
+[1078742486498] ncclAllReduce called tid=6907 count=2097152
+[1078742496443] ncclAllReduce returned tid=6907 latency=10 us
+[1078742498570] ncclAllReduce called tid=6907 count=2097152
+[1078742508093] ncclAllReduce returned tid=6907 latency=9 us
+[1078742510114] ncclAllReduce called tid=6907 count=2097152
+[1078742520104] ncclAllReduce returned tid=6907 latency=10 us
+[1078742522212] ncclAllReduce called tid=6907 count=2097152
+[1078742531589] ncclAllReduce returned tid=6907 latency=9 us
+[1078742533743] ncclAllReduce called tid=6907 count=2097152
+[1078742543825] ncclAllReduce returned tid=6907 latency=10 us
+[1078742545839] ncclAllReduce called tid=6907 count=2097152
+[1078742555850] ncclAllReduce returned tid=6907 latency=10 us
+[1078742557942] ncclAllReduce called tid=6907 count=2097152
+[1078742567148] ncclAllReduce returned tid=6907 latency=9 us
+[1078742569293] ncclAllReduce called tid=6907 count=2097152
+[1078742578915] ncclAllReduce returned tid=6907 latency=9 us
+[1078742581851] ncclAllReduce called tid=6907 count=2097152
+[1078742606922] ncclAllReduce returned tid=6907 latency=25 us
+[1078742609319] ncclAllReduce called tid=6907 count=2097152
+[1078742619891] ncclAllReduce returned tid=6907 latency=10 us
+[1078742622126] ncclAllReduce called tid=6907 count=2097152
+[1078742632188] ncclAllReduce returned tid=6907 latency=10 us
+[1078742634406] ncclAllReduce called tid=6907 count=2097152
+[1078742644066] ncclAllReduce returned tid=6907 latency=9 us
+[1078742646345] ncclAllReduce called tid=6907 count=2097152
+[1078742656475] ncclAllReduce returned tid=6907 latency=10 us
+[1078742658674] ncclAllReduce called tid=6907 count=2097152
+[1078742668603] ncclAllReduce returned tid=6907 latency=9 us
+[1078742671084] ncclAllReduce called tid=6907 count=2097152
+[1078742681639] ncclAllReduce returned tid=6907 latency=10 us
+[1078742683957] ncclAllReduce called tid=6907 count=2097152
+[1078742693480] ncclAllReduce returned tid=6907 latency=9 us
+[1078742695820] ncclAllReduce called tid=6907 count=2097152
+[1078742705808] ncclAllReduce returned tid=6907 latency=10 us
+[1078742708019] ncclAllReduce called tid=6907 count=2097152
+[1078742717953] ncclAllReduce returned tid=6907 latency=9 us
+[1078742720109] ncclAllReduce called tid=6907 count=2097152
+[1078742730591] ncclAllReduce returned tid=6907 latency=10 us
+[1078742732800] ncclAllReduce called tid=6907 count=2097152
+[1078742742708] ncclAllReduce returned tid=6907 latency=9 us
+[1078743021990] ncclAllReduce called tid=6907 count=2097152
+[1078743033364] ncclAllReduce returned tid=6907 latency=11 us
+[1078759142897] ncclAllReduce called tid=6907 count=2097152
+[1078759156915] ncclAllReduce returned tid=6907 latency=14 us
+[1078759162415] ncclAllReduce called tid=6907 count=2097152
+[1078759167945] ncclAllReduce returned tid=6907 latency=5 us
+[1078759169982] ncclAllReduce called tid=6907 count=2097152
+[1078759174989] ncclAllReduce returned tid=6907 latency=5 us
+[1078759177180] ncclAllReduce called tid=6907 count=2097152
+[1078759182325] ncclAllReduce returned tid=6907 latency=5 us
+[1078759184281] ncclAllReduce called tid=6907 count=2097152
+[1078759189385] ncclAllReduce returned tid=6907 latency=5 us
+[1078759191562] ncclAllReduce called tid=6907 count=2097152
+[1078759197108] ncclAllReduce returned tid=6907 latency=5 us
+[1078759199067] ncclAllReduce called tid=6907 count=2097152
+[1078759204374] ncclAllReduce returned tid=6907 latency=5 us
+[1078759206351] ncclAllReduce called tid=6907 count=2097152
+[1078759211208] ncclAllReduce returned tid=6907 latency=4 us
+[1078759213223] ncclAllReduce called tid=6907 count=2097152
+[1078759218205] ncclAllReduce returned tid=6907 latency=5 us
+[1078759220141] ncclAllReduce called tid=6907 count=2097152
+[1078759225292] ncclAllReduce returned tid=6907 latency=5 us
+[1078759227260] ncclAllReduce called tid=6907 count=2097152
+[1078759232265] ncclAllReduce returned tid=6907 latency=5 us
+[1078759234464] ncclAllReduce called tid=6907 count=2097152
+[1078759239619] ncclAllReduce returned tid=6907 latency=5 us
+[1078759241555] ncclAllReduce called tid=6907 count=2097152
+[1078759246549] ncclAllReduce returned tid=6907 latency=5 us
+[1078759248515] ncclAllReduce called tid=6907 count=2097152
+[1078759254086] ncclAllReduce returned tid=6907 latency=5 us
+[1078759256030] ncclAllReduce called tid=6907 count=2097152
+[1078759261146] ncclAllReduce returned tid=6907 latency=5 us
+[1078759263127] ncclAllReduce called tid=6907 count=2097152
+[1078759267993] ncclAllReduce returned tid=6907 latency=4 us
+[1078759270015] ncclAllReduce called tid=6907 count=2097152
+[1078759274963] ncclAllReduce returned tid=6907 latency=4 us
+[1078759276893] ncclAllReduce called tid=6907 count=2097152
+[1078759282693] ncclAllReduce returned tid=6907 latency=5 us
+[1078759285139] ncclAllReduce called tid=6907 count=2097152
+[1078759289954] ncclAllReduce returned tid=6907 latency=4 us
+[1078759292182] ncclAllReduce called tid=6907 count=2097152
+[1078759297116] ncclAllReduce returned tid=6907 latency=4 us
+[1078759299043] ncclAllReduce called tid=6907 count=2097152
+[1078759304011] ncclAllReduce returned tid=6907 latency=5 us
+[1078759370315] ncclAllReduce called tid=6907 count=2097152
+[1078759376327] ncclAllReduce returned tid=6907 latency=6 us
+[1078775515291] ncclAllReduce called tid=6907 count=4194304
+[1078775536125] ncclAllReduce returned tid=6907 latency=21 us
+[1078775583343] ncclAllReduce called tid=6907 count=4194304
+[1078775593814] ncclAllReduce returned tid=6907 latency=10 us
+[1078775595975] ncclAllReduce called tid=6907 count=4194304
+[1078775622527] ncclAllReduce returned tid=6907 latency=26 us
+[1078775625083] ncclAllReduce called tid=6907 count=4194304
+[1078775634663] ncclAllReduce returned tid=6907 latency=9 us
+[1078775636824] ncclAllReduce called tid=6907 count=4194304
+[1078775646703] ncclAllReduce returned tid=6907 latency=9 us
+[1078775648933] ncclAllReduce called tid=6907 count=4194304
+[1078775658957] ncclAllReduce returned tid=6907 latency=10 us
+[1078775661903] ncclAllReduce called tid=6907 count=4194304
+[1078775671813] ncclAllReduce returned tid=6907 latency=9 us
+[1078775674171] ncclAllReduce called tid=6907 count=4194304
+[1078775684508] ncclAllReduce returned tid=6907 latency=10 us
+[1078775686724] ncclAllReduce called tid=6907 count=4194304
+[1078775696129] ncclAllReduce returned tid=6907 latency=9 us
+[1078775698286] ncclAllReduce called tid=6907 count=4194304
+[1078775708369] ncclAllReduce returned tid=6907 latency=10 us
+[1078775710594] ncclAllReduce called tid=6907 count=4194304
+[1078775719837] ncclAllReduce returned tid=6907 latency=9 us
+[1078775722153] ncclAllReduce called tid=6907 count=4194304
+[1078775732126] ncclAllReduce returned tid=6907 latency=10 us
+[1078775734460] ncclAllReduce called tid=6907 count=4194304
+[1078775744476] ncclAllReduce returned tid=6907 latency=10 us
+[1078775746700] ncclAllReduce called tid=6907 count=4194304
+[1078775756638] ncclAllReduce returned tid=6907 latency=9 us
+[1078775758918] ncclAllReduce called tid=6907 count=4194304
+[1078775769227] ncclAllReduce returned tid=6907 latency=10 us
+[1078775771610] ncclAllReduce called tid=6907 count=4194304
+[1078775781278] ncclAllReduce returned tid=6907 latency=9 us
+[1078775783495] ncclAllReduce called tid=6907 count=4194304
+[1078775793126] ncclAllReduce returned tid=6907 latency=9 us
+[1078775795312] ncclAllReduce called tid=6907 count=4194304
+[1078775805646] ncclAllReduce returned tid=6907 latency=10 us
+[1078775807858] ncclAllReduce called tid=6907 count=4194304
+[1078775817731] ncclAllReduce returned tid=6907 latency=9 us
+[1078775819984] ncclAllReduce called tid=6907 count=4194304
+[1078775829602] ncclAllReduce returned tid=6907 latency=9 us
+[1078775831968] ncclAllReduce called tid=6907 count=4194304
+[1078775841628] ncclAllReduce returned tid=6907 latency=9 us
+[1078776568685] ncclAllReduce called tid=6907 count=4194304
+[1078776581892] ncclAllReduce returned tid=6907 latency=13 us
+[1078792767610] ncclAllReduce called tid=6907 count=4194304
+[1078792778500] ncclAllReduce returned tid=6907 latency=11 us
+[1078792783011] ncclAllReduce called tid=6907 count=4194304
+[1078792788457] ncclAllReduce returned tid=6907 latency=5 us
+[1078792790429] ncclAllReduce called tid=6907 count=4194304
+[1078792795515] ncclAllReduce returned tid=6907 latency=5 us
+[1078792797687] ncclAllReduce called tid=6907 count=4194304
+[1078792802750] ncclAllReduce returned tid=6907 latency=5 us
+[1078792804699] ncclAllReduce called tid=6907 count=4194304
+[1078792809924] ncclAllReduce returned tid=6907 latency=5 us
+[1078792812033] ncclAllReduce called tid=6907 count=4194304
+[1078792817704] ncclAllReduce returned tid=6907 latency=5 us
+[1078792819733] ncclAllReduce called tid=6907 count=4194304
+[1078792824971] ncclAllReduce returned tid=6907 latency=5 us
+[1078792827046] ncclAllReduce called tid=6907 count=4194304
+[1078792832247] ncclAllReduce returned tid=6907 latency=5 us
+[1078792834215] ncclAllReduce called tid=6907 count=4194304
+[1078792839064] ncclAllReduce returned tid=6907 latency=4 us
+[1078792841081] ncclAllReduce called tid=6907 count=4194304
+[1078792846028] ncclAllReduce returned tid=6907 latency=4 us
+[1078792847953] ncclAllReduce called tid=6907 count=4194304
+[1078792852934] ncclAllReduce returned tid=6907 latency=5 us
+[1078792854902] ncclAllReduce called tid=6907 count=4194304
+[1078792859810] ncclAllReduce returned tid=6907 latency=4 us
+[1078792861754] ncclAllReduce called tid=6907 count=4194304
+[1078792866760] ncclAllReduce returned tid=6907 latency=5 us
+[1078792868733] ncclAllReduce called tid=6907 count=4194304
+[1078792874234] ncclAllReduce returned tid=6907 latency=5 us
+[1078792876242] ncclAllReduce called tid=6907 count=4194304
+[1078792881325] ncclAllReduce returned tid=6907 latency=5 us
+[1078792883254] ncclAllReduce called tid=6907 count=4194304
+[1078792888295] ncclAllReduce returned tid=6907 latency=5 us
+[1078792890255] ncclAllReduce called tid=6907 count=4194304
+[1078792895092] ncclAllReduce returned tid=6907 latency=4 us
+[1078792897105] ncclAllReduce called tid=6907 count=4194304
+[1078792902057] ncclAllReduce returned tid=6907 latency=4 us
+[1078792903989] ncclAllReduce called tid=6907 count=4194304
+[1078792909678] ncclAllReduce returned tid=6907 latency=5 us
+[1078792912309] ncclAllReduce called tid=6907 count=4194304
+[1078792917218] ncclAllReduce returned tid=6907 latency=4 us
+[1078792919351] ncclAllReduce called tid=6907 count=4194304
+[1078792924362] ncclAllReduce returned tid=6907 latency=5 us
+[1078793036100] ncclAllReduce called tid=6907 count=4194304
+[1078793041959] ncclAllReduce returned tid=6907 latency=6 us
+[1078809277921] ncclAllReduce called tid=6907 count=8388608
+[1078809312057] ncclAllReduce returned tid=6907 latency=34 us
+[1078809401168] ncclAllReduce called tid=6907 count=8388608
+[1078809411773] ncclAllReduce returned tid=6907 latency=10 us
+[1078809414775] ncclAllReduce called tid=6907 count=8388608
+[1078809425287] ncclAllReduce returned tid=6907 latency=10 us
+[1078809427831] ncclAllReduce called tid=6907 count=8388608
+[1078809438563] ncclAllReduce returned tid=6907 latency=10 us
+[1078809440725] ncclAllReduce called tid=6907 count=8388608
+[1078809451612] ncclAllReduce returned tid=6907 latency=10 us
+[1078809454195] ncclAllReduce called tid=6907 count=8388608
+[1078809464658] ncclAllReduce returned tid=6907 latency=10 us
+[1078809466911] ncclAllReduce called tid=6907 count=8388608
+[1078809477113] ncclAllReduce returned tid=6907 latency=10 us
+[1078809479250] ncclAllReduce called tid=6907 count=8388608
+[1078809488899] ncclAllReduce returned tid=6907 latency=9 us
+[1078809491164] ncclAllReduce called tid=6907 count=8388608
+[1078809501070] ncclAllReduce returned tid=6907 latency=9 us
+[1078809503307] ncclAllReduce called tid=6907 count=8388608
+[1078809513200] ncclAllReduce returned tid=6907 latency=9 us
+[1078809515571] ncclAllReduce called tid=6907 count=8388608
+[1078809525425] ncclAllReduce returned tid=6907 latency=9 us
+[1078809527684] ncclAllReduce called tid=6907 count=8388608
+[1078809537985] ncclAllReduce returned tid=6907 latency=10 us
+[1078809540113] ncclAllReduce called tid=6907 count=8388608
+[1078809550177] ncclAllReduce returned tid=6907 latency=10 us
+[1078809552372] ncclAllReduce called tid=6907 count=8388608
+[1078809562126] ncclAllReduce returned tid=6907 latency=9 us
+[1078809564358] ncclAllReduce called tid=6907 count=8388608
+[1078809574449] ncclAllReduce returned tid=6907 latency=10 us
+[1078809576762] ncclAllReduce called tid=6907 count=8388608
+[1078809586817] ncclAllReduce returned tid=6907 latency=10 us
+[1078809589015] ncclAllReduce called tid=6907 count=8388608
+[1078809598099] ncclAllReduce returned tid=6907 latency=9 us
+[1078809600330] ncclAllReduce called tid=6907 count=8388608
+[1078809610317] ncclAllReduce returned tid=6907 latency=10 us
+[1078809612623] ncclAllReduce called tid=6907 count=8388608
+[1078809622148] ncclAllReduce returned tid=6907 latency=9 us
+[1078809624339] ncclAllReduce called tid=6907 count=8388608
+[1078809634986] ncclAllReduce returned tid=6907 latency=10 us
+[1078809637332] ncclAllReduce called tid=6907 count=8388608
+[1078809647275] ncclAllReduce returned tid=6907 latency=9 us
+[1078811285525] ncclAllReduce called tid=6907 count=8388608
+[1078811300997] ncclAllReduce returned tid=6907 latency=15 us
+[1078827653478] ncclAllReduce called tid=6907 count=8388608
+[1078827664966] ncclAllReduce returned tid=6907 latency=11 us
+[1078827669575] ncclAllReduce called tid=6907 count=8388608
+[1078827675158] ncclAllReduce returned tid=6907 latency=5 us
+[1078827677136] ncclAllReduce called tid=6907 count=8388608
+[1078827682447] ncclAllReduce returned tid=6907 latency=5 us
+[1078827684616] ncclAllReduce called tid=6907 count=8388608
+[1078827689686] ncclAllReduce returned tid=6907 latency=5 us
+[1078827691724] ncclAllReduce called tid=6907 count=8388608
+[1078827696819] ncclAllReduce returned tid=6907 latency=5 us
+[1078827698946] ncclAllReduce called tid=6907 count=8388608
+[1078827704112] ncclAllReduce returned tid=6907 latency=5 us
+[1078827706082] ncclAllReduce called tid=6907 count=8388608
+[1078827711098] ncclAllReduce returned tid=6907 latency=5 us
+[1078827713297] ncclAllReduce called tid=6907 count=8388608
+[1078827718260] ncclAllReduce returned tid=6907 latency=5 us
+[1078827720186] ncclAllReduce called tid=6907 count=8388608
+[1078827725420] ncclAllReduce returned tid=6907 latency=5 us
+[1078827727395] ncclAllReduce called tid=6907 count=8388608
+[1078827732591] ncclAllReduce returned tid=6907 latency=5 us
+[1078827734546] ncclAllReduce called tid=6907 count=8388608
+[1078827739632] ncclAllReduce returned tid=6907 latency=5 us
+[1078827741595] ncclAllReduce called tid=6907 count=8388608
+[1078827746463] ncclAllReduce returned tid=6907 latency=4 us
+[1078827748480] ncclAllReduce called tid=6907 count=8388608
+[1078827753427] ncclAllReduce returned tid=6907 latency=4 us
+[1078827755360] ncclAllReduce called tid=6907 count=8388608
+[1078827760346] ncclAllReduce returned tid=6907 latency=5 us
+[1078827762322] ncclAllReduce called tid=6907 count=8388608
+[1078827767132] ncclAllReduce returned tid=6907 latency=4 us
+[1078827769153] ncclAllReduce called tid=6907 count=8388608
+[1078827774102] ncclAllReduce returned tid=6907 latency=4 us
+[1078827776042] ncclAllReduce called tid=6907 count=8388608
+[1078827781268] ncclAllReduce returned tid=6907 latency=5 us
+[1078827783230] ncclAllReduce called tid=6907 count=8388608
+[1078827788429] ncclAllReduce returned tid=6907 latency=5 us
+[1078827791515] ncclAllReduce called tid=6907 count=8388608
+[1078827796894] ncclAllReduce returned tid=6907 latency=5 us
+[1078827798864] ncclAllReduce called tid=6907 count=8388608
+[1078827803952] ncclAllReduce returned tid=6907 latency=5 us
+[1078827805980] ncclAllReduce called tid=6907 count=8388608
+[1078827810912] ncclAllReduce returned tid=6907 latency=4 us
+[1078828015450] ncclAllReduce called tid=6907 count=8388608
+[1078828021213] ncclAllReduce returned tid=6907 latency=5 us
+[1078844476042] ncclAllReduce called tid=6907 count=16777216
+[1078844495599] ncclAllReduce returned tid=6907 latency=19 us
+[1078844665391] ncclAllReduce called tid=6907 count=16777216
+[1078844676740] ncclAllReduce returned tid=6907 latency=11 us
+[1078844679020] ncclAllReduce called tid=6907 count=16777216
+[1078844689500] ncclAllReduce returned tid=6907 latency=10 us
+[1078844691641] ncclAllReduce called tid=6907 count=16777216
+[1078844701148] ncclAllReduce returned tid=6907 latency=9 us
+[1078844703355] ncclAllReduce called tid=6907 count=16777216
+[1078844713437] ncclAllReduce returned tid=6907 latency=10 us
+[1078844715745] ncclAllReduce called tid=6907 count=16777216
+[1078844725916] ncclAllReduce returned tid=6907 latency=10 us
+[1078844728139] ncclAllReduce called tid=6907 count=16777216
+[1078844738461] ncclAllReduce returned tid=6907 latency=10 us
+[1078844740792] ncclAllReduce called tid=6907 count=16777216
+[1078844751137] ncclAllReduce returned tid=6907 latency=10 us
+[1078844753448] ncclAllReduce called tid=6907 count=16777216
+[1078844763061] ncclAllReduce returned tid=6907 latency=9 us
+[1078844765239] ncclAllReduce called tid=6907 count=16777216
+[1078844775025] ncclAllReduce returned tid=6907 latency=9 us
+[1078844777637] ncclAllReduce called tid=6907 count=16777216
+[1078844787008] ncclAllReduce returned tid=6907 latency=9 us
+[1078844789343] ncclAllReduce called tid=6907 count=16777216
+[1078844799447] ncclAllReduce returned tid=6907 latency=10 us
+[1078844801626] ncclAllReduce called tid=6907 count=16777216
+[1078844811326] ncclAllReduce returned tid=6907 latency=9 us
+[1078844813631] ncclAllReduce called tid=6907 count=16777216
+[1078844823452] ncclAllReduce returned tid=6907 latency=9 us
+[1078844825668] ncclAllReduce called tid=6907 count=16777216
+[1078844835794] ncclAllReduce returned tid=6907 latency=10 us
+[1078844838044] ncclAllReduce called tid=6907 count=16777216
+[1078844847947] ncclAllReduce returned tid=6907 latency=9 us
+[1078844850281] ncclAllReduce called tid=6907 count=16777216
+[1078844860563] ncclAllReduce returned tid=6907 latency=10 us
+[1078844862758] ncclAllReduce called tid=6907 count=16777216
+[1078844872134] ncclAllReduce returned tid=6907 latency=9 us
+[1078844874367] ncclAllReduce called tid=6907 count=16777216
+[1078844884223] ncclAllReduce returned tid=6907 latency=9 us
+[1078844886730] ncclAllReduce called tid=6907 count=16777216
+[1078844896067] ncclAllReduce returned tid=6907 latency=9 us
+[1078844898270] ncclAllReduce called tid=6907 count=16777216
+[1078844908266] ncclAllReduce returned tid=6907 latency=10 us
+[1078848358758] ncclAllReduce called tid=6907 count=16777216
+[1078848376178] ncclAllReduce returned tid=6907 latency=17 us
+[1078865100291] ncclAllReduce called tid=6907 count=16777216
+[1078865115706] ncclAllReduce returned tid=6907 latency=16 us
+[1078865122026] ncclAllReduce called tid=6907 count=16777216
+[1078865127593] ncclAllReduce returned tid=6907 latency=5 us
+[1078865129559] ncclAllReduce called tid=6907 count=16777216
+[1078865134708] ncclAllReduce returned tid=6907 latency=5 us
+[1078865136854] ncclAllReduce called tid=6907 count=16777216
+[1078865141858] ncclAllReduce returned tid=6907 latency=5 us
+[1078865143891] ncclAllReduce called tid=6907 count=16777216
+[1078865148962] ncclAllReduce returned tid=6907 latency=5 us
+[1078865151071] ncclAllReduce called tid=6907 count=16777216
+[1078865156188] ncclAllReduce returned tid=6907 latency=5 us
+[1078865158168] ncclAllReduce called tid=6907 count=16777216
+[1078865163484] ncclAllReduce returned tid=6907 latency=5 us
+[1078865165606] ncclAllReduce called tid=6907 count=16777216
+[1078865171070] ncclAllReduce returned tid=6907 latency=5 us
+[1078865173071] ncclAllReduce called tid=6907 count=16777216
+[1078865178002] ncclAllReduce returned tid=6907 latency=4 us
+[1078865180038] ncclAllReduce called tid=6907 count=16777216
+[1078865184991] ncclAllReduce returned tid=6907 latency=4 us
+[1078865186920] ncclAllReduce called tid=6907 count=16777216
+[1078865191904] ncclAllReduce returned tid=6907 latency=5 us
+[1078865193892] ncclAllReduce called tid=6907 count=16777216
+[1078865198727] ncclAllReduce returned tid=6907 latency=4 us
+[1078865200764] ncclAllReduce called tid=6907 count=16777216
+[1078865205683] ncclAllReduce returned tid=6907 latency=4 us
+[1078865207608] ncclAllReduce called tid=6907 count=16777216
+[1078865212563] ncclAllReduce returned tid=6907 latency=4 us
+[1078865214573] ncclAllReduce called tid=6907 count=16777216
+[1078865219769] ncclAllReduce returned tid=6907 latency=5 us
+[1078865221720] ncclAllReduce called tid=6907 count=16777216
+[1078865226985] ncclAllReduce returned tid=6907 latency=5 us
+[1078865228964] ncclAllReduce called tid=6907 count=16777216
+[1078865233877] ncclAllReduce returned tid=6907 latency=4 us
+[1078865235900] ncclAllReduce called tid=6907 count=16777216
+[1078865240841] ncclAllReduce returned tid=6907 latency=4 us
+[1078865243697] ncclAllReduce called tid=6907 count=16777216
+[1078865248694] ncclAllReduce returned tid=6907 latency=5 us
+[1078865250868] ncclAllReduce called tid=6907 count=16777216
+[1078865255708] ncclAllReduce returned tid=6907 latency=4 us
+[1078865257743] ncclAllReduce called tid=6907 count=16777216
+[1078865262665] ncclAllReduce returned tid=6907 latency=4 us
+[1078865647851] ncclAllReduce called tid=6907 count=16777216
+[1078865653629] ncclAllReduce returned tid=6907 latency=5 us
+[1078882557080] ncclAllReduce called tid=6907 count=33554432
+[1078882578912] ncclAllReduce returned tid=6907 latency=22 us
+[1078882910982] ncclAllReduce called tid=6907 count=33554432
+[1078882929121] ncclAllReduce returned tid=6907 latency=18 us
+[1078882931583] ncclAllReduce called tid=6907 count=33554432
+[1078882941814] ncclAllReduce returned tid=6907 latency=10 us
+[1078882944133] ncclAllReduce called tid=6907 count=33554432
+[1078882954852] ncclAllReduce returned tid=6907 latency=10 us
+[1078882957098] ncclAllReduce called tid=6907 count=33554432
+[1078882967050] ncclAllReduce returned tid=6907 latency=9 us
+[1078882970305] ncclAllReduce called tid=6907 count=33554432
+[1078882981457] ncclAllReduce returned tid=6907 latency=11 us
+[1078882983675] ncclAllReduce called tid=6907 count=33554432
+[1078882993843] ncclAllReduce returned tid=6907 latency=10 us
+[1078882996360] ncclAllReduce called tid=6907 count=33554432
+[1078883023854] ncclAllReduce returned tid=6907 latency=27 us
+[1078883026331] ncclAllReduce called tid=6907 count=33554432
+[1078883037244] ncclAllReduce returned tid=6907 latency=10 us
+[1078883039456] ncclAllReduce called tid=6907 count=33554432
+[1078883049198] ncclAllReduce returned tid=6907 latency=9 us
+[1078883051449] ncclAllReduce called tid=6907 count=33554432
+[1078883061882] ncclAllReduce returned tid=6907 latency=10 us
+[1078883064321] ncclAllReduce called tid=6907 count=33554432
+[1078883074565] ncclAllReduce returned tid=6907 latency=10 us
+[1078883076812] ncclAllReduce called tid=6907 count=33554432
+[1078883086638] ncclAllReduce returned tid=6907 latency=9 us
+[1078883089344] ncclAllReduce called tid=6907 count=33554432
+[1078883099908] ncclAllReduce returned tid=6907 latency=10 us
+[1078883102114] ncclAllReduce called tid=6907 count=33554432
+[1078883112115] ncclAllReduce returned tid=6907 latency=10 us
+[1078883114554] ncclAllReduce called tid=6907 count=33554432
+[1078883124597] ncclAllReduce returned tid=6907 latency=10 us
+[1078883126895] ncclAllReduce called tid=6907 count=33554432
+[1078883136610] ncclAllReduce returned tid=6907 latency=9 us
+[1078883138805] ncclAllReduce called tid=6907 count=33554432
+[1078883148840] ncclAllReduce returned tid=6907 latency=10 us
+[1078883151288] ncclAllReduce called tid=6907 count=33554432
+[1078883161667] ncclAllReduce returned tid=6907 latency=10 us
+[1078883163850] ncclAllReduce called tid=6907 count=33554432
+[1078883174301] ncclAllReduce returned tid=6907 latency=10 us
+[1078883176729] ncclAllReduce called tid=6907 count=33554432
+[1078883186478] ncclAllReduce returned tid=6907 latency=9 us
+[1078890223934] ncclAllReduce called tid=6907 count=33554432
+[1078890239437] ncclAllReduce returned tid=6907 latency=15 us
+[1078907544677] ncclAllReduce called tid=6907 count=33554432
+[1078907555976] ncclAllReduce returned tid=6907 latency=11 us
+[1078907561119] ncclAllReduce called tid=6907 count=33554432
+[1078907566788] ncclAllReduce returned tid=6907 latency=5 us
+[1078907568853] ncclAllReduce called tid=6907 count=33554432
+[1078907574277] ncclAllReduce returned tid=6907 latency=5 us
+[1078907576483] ncclAllReduce called tid=6907 count=33554432
+[1078907581727] ncclAllReduce returned tid=6907 latency=5 us
+[1078907583862] ncclAllReduce called tid=6907 count=33554432
+[1078907589202] ncclAllReduce returned tid=6907 latency=5 us
+[1078907591445] ncclAllReduce called tid=6907 count=33554432
+[1078907596843] ncclAllReduce returned tid=6907 latency=5 us
+[1078907598923] ncclAllReduce called tid=6907 count=33554432
+[1078907604875] ncclAllReduce returned tid=6907 latency=5 us
+[1078907607129] ncclAllReduce called tid=6907 count=33554432
+[1078907612473] ncclAllReduce returned tid=6907 latency=5 us
+[1078907614552] ncclAllReduce called tid=6907 count=33554432
+[1078907619648] ncclAllReduce returned tid=6907 latency=5 us
+[1078907621779] ncclAllReduce called tid=6907 count=33554432
+[1078907626934] ncclAllReduce returned tid=6907 latency=5 us
+[1078907628967] ncclAllReduce called tid=6907 count=33554432
+[1078907634225] ncclAllReduce returned tid=6907 latency=5 us
+[1078907636308] ncclAllReduce called tid=6907 count=33554432
+[1078907641443] ncclAllReduce returned tid=6907 latency=5 us
+[1078907643580] ncclAllReduce called tid=6907 count=33554432
+[1078907648757] ncclAllReduce returned tid=6907 latency=5 us
+[1078907650785] ncclAllReduce called tid=6907 count=33554432
+[1078907655976] ncclAllReduce returned tid=6907 latency=5 us
+[1078907658052] ncclAllReduce called tid=6907 count=33554432
+[1078907663866] ncclAllReduce returned tid=6907 latency=5 us
+[1078907665946] ncclAllReduce called tid=6907 count=33554432
+[1078907671285] ncclAllReduce returned tid=6907 latency=5 us
+[1078907673369] ncclAllReduce called tid=6907 count=33554432
+[1078907678466] ncclAllReduce returned tid=6907 latency=5 us
+[1078907681107] ncclAllReduce called tid=6907 count=33554432
+[1078907687407] ncclAllReduce returned tid=6907 latency=6 us
+[1078907689443] ncclAllReduce called tid=6907 count=33554432
+[1078907694885] ncclAllReduce returned tid=6907 latency=5 us
+[1078907696965] ncclAllReduce called tid=6907 count=33554432
+[1078907702007] ncclAllReduce returned tid=6907 latency=5 us
+[1078907704138] ncclAllReduce called tid=6907 count=33554432
+[1078907709327] ncclAllReduce returned tid=6907 latency=5 us
+[1078908427701] ncclAllReduce called tid=6907 count=33554432
+[1078908433961] ncclAllReduce returned tid=6907 latency=6 us
+[1078926171253] ncclAllReduce called tid=6907 count=67108864
+[1078926221430] ncclAllReduce returned tid=6907 latency=50 us
+[1078926878895] ncclAllReduce called tid=6907 count=67108864
+[1078926894361] ncclAllReduce returned tid=6907 latency=15 us
+[1078926896489] ncclAllReduce called tid=6907 count=67108864
+[1078926907774] ncclAllReduce returned tid=6907 latency=11 us
+[1078926910034] ncclAllReduce called tid=6907 count=67108864
+[1078926920308] ncclAllReduce returned tid=6907 latency=10 us
+[1078926922400] ncclAllReduce called tid=6907 count=67108864
+[1078926931966] ncclAllReduce returned tid=6907 latency=9 us
+[1078926934324] ncclAllReduce called tid=6907 count=67108864
+[1078926944191] ncclAllReduce returned tid=6907 latency=9 us
+[1078926947176] ncclAllReduce called tid=6907 count=67108864
+[1078926956443] ncclAllReduce returned tid=6907 latency=9 us
+[1078926958612] ncclAllReduce called tid=6907 count=67108864
+[1078926968215] ncclAllReduce returned tid=6907 latency=9 us
+[1078926970233] ncclAllReduce called tid=6907 count=67108864
+[1078926979158] ncclAllReduce returned tid=6907 latency=8 us
+[1078926981433] ncclAllReduce called tid=6907 count=67108864
+[1078926991540] ncclAllReduce returned tid=6907 latency=10 us
+[1078926993672] ncclAllReduce called tid=6907 count=67108864
+[1078927015582] ncclAllReduce returned tid=6907 latency=21 us
+[1078927017936] ncclAllReduce called tid=6907 count=67108864
+[1078927027798] ncclAllReduce returned tid=6907 latency=9 us
+[1078927029899] ncclAllReduce called tid=6907 count=67108864
+[1078927039159] ncclAllReduce returned tid=6907 latency=9 us
+[1078927041282] ncclAllReduce called tid=6907 count=67108864
+[1078927051008] ncclAllReduce returned tid=6907 latency=9 us
+[1078927053055] ncclAllReduce called tid=6907 count=67108864
+[1078927062414] ncclAllReduce returned tid=6907 latency=9 us
+[1078927064500] ncclAllReduce called tid=6907 count=67108864
+[1078927074084] ncclAllReduce returned tid=6907 latency=9 us
+[1078927076309] ncclAllReduce called tid=6907 count=67108864
+[1078927086214] ncclAllReduce returned tid=6907 latency=9 us
+[1078927088303] ncclAllReduce called tid=6907 count=67108864
+[1078927097065] ncclAllReduce returned tid=6907 latency=8 us
+[1078927099387] ncclAllReduce called tid=6907 count=67108864
+[1078927109020] ncclAllReduce returned tid=6907 latency=9 us
+[1078927111065] ncclAllReduce called tid=6907 count=67108864
+[1078927120569] ncclAllReduce returned tid=6907 latency=9 us
+[1078927122841] ncclAllReduce called tid=6907 count=67108864
+[1078927132222] ncclAllReduce returned tid=6907 latency=9 us
+[1078941359407] ncclAllReduce called tid=6907 count=67108864
+[1078941375530] ncclAllReduce returned tid=6907 latency=16 us
+[1078959956009] ncclAllReduce called tid=6907 count=67108864
+[1078959966658] ncclAllReduce returned tid=6907 latency=10 us
+[1078959971491] ncclAllReduce called tid=6907 count=67108864
+[1078959976970] ncclAllReduce returned tid=6907 latency=5 us
+[1078959978935] ncclAllReduce called tid=6907 count=67108864
+[1078959984110] ncclAllReduce returned tid=6907 latency=5 us
+[1078959986231] ncclAllReduce called tid=6907 count=67108864
+[1078959991157] ncclAllReduce returned tid=6907 latency=4 us
+[1078959993176] ncclAllReduce called tid=6907 count=67108864
+[1078959998908] ncclAllReduce returned tid=6907 latency=5 us
+[1078960013494] ncclAllReduce called tid=6907 count=67108864
+[1078960020219] ncclAllReduce returned tid=6907 latency=6 us
+[1078960022877] ncclAllReduce called tid=6907 count=67108864
+[1078960029362] ncclAllReduce returned tid=6907 latency=6 us
+[1078960031915] ncclAllReduce called tid=6907 count=67108864
+[1078960037801] ncclAllReduce returned tid=6907 latency=5 us
+[1078960039789] ncclAllReduce called tid=6907 count=67108864
+[1078960044874] ncclAllReduce returned tid=6907 latency=5 us
+[1078960046966] ncclAllReduce called tid=6907 count=67108864
+[1078960051933] ncclAllReduce returned tid=6907 latency=5 us
+[1078960053961] ncclAllReduce called tid=6907 count=67108864
+[1078960058953] ncclAllReduce returned tid=6907 latency=5 us
+[1078960060947] ncclAllReduce called tid=6907 count=67108864
+[1078960065993] ncclAllReduce returned tid=6907 latency=5 us
+[1078960067980] ncclAllReduce called tid=6907 count=67108864
+[1078960073592] ncclAllReduce returned tid=6907 latency=5 us
+[1078960075614] ncclAllReduce called tid=6907 count=67108864
+[1078960080705] ncclAllReduce returned tid=6907 latency=5 us
+[1078960082677] ncclAllReduce called tid=6907 count=67108864
+[1078960087520] ncclAllReduce returned tid=6907 latency=4 us
+[1078960089539] ncclAllReduce called tid=6907 count=67108864
+[1078960094475] ncclAllReduce returned tid=6907 latency=4 us
+[1078960096387] ncclAllReduce called tid=6907 count=67108864
+[1078960101383] ncclAllReduce returned tid=6907 latency=5 us
+[1078960104513] ncclAllReduce called tid=6907 count=67108864
+[1078960109332] ncclAllReduce returned tid=6907 latency=4 us
+[1078960111547] ncclAllReduce called tid=6907 count=67108864
+[1078960116475] ncclAllReduce returned tid=6907 latency=4 us
+[1078960118397] ncclAllReduce called tid=6907 count=67108864
+[1078960123344] ncclAllReduce returned tid=6907 latency=4 us
+[1078960125357] ncclAllReduce called tid=6907 count=67108864
+[1078960130905] ncclAllReduce returned tid=6907 latency=5 us
+[1078961543349] ncclAllReduce called tid=6907 count=67108864
+[1078961554114] ncclAllReduce returned tid=6907 latency=10 us
+[1078980878449] ncclAllReduce called tid=6907 count=134217728
+[1078980902509] ncclAllReduce returned tid=6907 latency=24 us
+[1078982207011] ncclAllReduce called tid=6907 count=134217728
+[1078982226078] ncclAllReduce returned tid=6907 latency=19 us
+[1078982228363] ncclAllReduce called tid=6907 count=134217728
+[1078982240543] ncclAllReduce returned tid=6907 latency=12 us
+[1078982242924] ncclAllReduce called tid=6907 count=134217728
+[1078982255659] ncclAllReduce returned tid=6907 latency=12 us
+[1078982257844] ncclAllReduce called tid=6907 count=134217728
+[1078982269473] ncclAllReduce returned tid=6907 latency=11 us
+[1078982271689] ncclAllReduce called tid=6907 count=134217728
+[1078982282957] ncclAllReduce returned tid=6907 latency=11 us
+[1078982285185] ncclAllReduce called tid=6907 count=134217728
+[1078982297415] ncclAllReduce returned tid=6907 latency=12 us
+[1078982299638] ncclAllReduce called tid=6907 count=134217728
+[1078982310997] ncclAllReduce returned tid=6907 latency=11 us
+[1078982313172] ncclAllReduce called tid=6907 count=134217728
+[1078982325480] ncclAllReduce returned tid=6907 latency=12 us
+[1078982327585] ncclAllReduce called tid=6907 count=134217728
+[1078982339271] ncclAllReduce returned tid=6907 latency=11 us
+[1078982341484] ncclAllReduce called tid=6907 count=134217728
+[1078982353411] ncclAllReduce returned tid=6907 latency=11 us
+[1078982355666] ncclAllReduce called tid=6907 count=134217728
+[1078982367653] ncclAllReduce returned tid=6907 latency=12 us
+[1078982369780] ncclAllReduce called tid=6907 count=134217728
+[1078982381388] ncclAllReduce returned tid=6907 latency=11 us
+[1078982384300] ncclAllReduce called tid=6907 count=134217728
+[1078982395746] ncclAllReduce returned tid=6907 latency=11 us
+[1078982397989] ncclAllReduce called tid=6907 count=134217728
+[1078982409271] ncclAllReduce returned tid=6907 latency=11 us
+[1078982411407] ncclAllReduce called tid=6907 count=134217728
+[1078982423007] ncclAllReduce returned tid=6907 latency=11 us
+[1078982425217] ncclAllReduce called tid=6907 count=134217728
+[1078982436705] ncclAllReduce returned tid=6907 latency=11 us
+[1078982438846] ncclAllReduce called tid=6907 count=134217728
+[1078982450685] ncclAllReduce returned tid=6907 latency=11 us
+[1078982453063] ncclAllReduce called tid=6907 count=134217728
+[1078982464713] ncclAllReduce returned tid=6907 latency=11 us
+[1078982466961] ncclAllReduce called tid=6907 count=134217728
+[1078982478320] ncclAllReduce returned tid=6907 latency=11 us
+[1078982480644] ncclAllReduce called tid=6907 count=134217728
+[1078982492474] ncclAllReduce returned tid=6907 latency=11 us
+[1079011134964] ncclAllReduce called tid=6907 count=134217728
+[1079011159155] ncclAllReduce returned tid=6907 latency=24 us
+[1079032480036] ncclAllReduce called tid=6907 count=134217728
+[1079032492570] ncclAllReduce returned tid=6907 latency=12 us
+[1079032497984] ncclAllReduce called tid=6907 count=134217728
+[1079032503502] ncclAllReduce returned tid=6907 latency=5 us
+[1079032505483] ncclAllReduce called tid=6907 count=134217728
+[1079032510535] ncclAllReduce returned tid=6907 latency=5 us
+[1079032512710] ncclAllReduce called tid=6907 count=134217728
+[1079032517827] ncclAllReduce returned tid=6907 latency=5 us
+[1079032519779] ncclAllReduce called tid=6907 count=134217728
+[1079032524914] ncclAllReduce returned tid=6907 latency=5 us
+[1079032527075] ncclAllReduce called tid=6907 count=134217728
+[1079032532082] ncclAllReduce returned tid=6907 latency=5 us
+[1079032534113] ncclAllReduce called tid=6907 count=134217728
+[1079032539229] ncclAllReduce returned tid=6907 latency=5 us
+[1079032541186] ncclAllReduce called tid=6907 count=134217728
+[1079032546833] ncclAllReduce returned tid=6907 latency=5 us
+[1079032548816] ncclAllReduce called tid=6907 count=134217728
+[1079032553776] ncclAllReduce returned tid=6907 latency=5 us
+[1079032555828] ncclAllReduce called tid=6907 count=134217728
+[1079032560822] ncclAllReduce returned tid=6907 latency=5 us
+[1079032562766] ncclAllReduce called tid=6907 count=134217728
+[1079032567732] ncclAllReduce returned tid=6907 latency=5 us
+[1079032569701] ncclAllReduce called tid=6907 count=134217728
+[1079032574621] ncclAllReduce returned tid=6907 latency=4 us
+[1079032576569] ncclAllReduce called tid=6907 count=134217728
+[1079032581562] ncclAllReduce returned tid=6907 latency=5 us
+[1079032583552] ncclAllReduce called tid=6907 count=134217728
+[1079032588383] ncclAllReduce returned tid=6907 latency=4 us
+[1079032590402] ncclAllReduce called tid=6907 count=134217728
+[1079032595325] ncclAllReduce returned tid=6907 latency=4 us
+[1079032597261] ncclAllReduce called tid=6907 count=134217728
+[1079032602912] ncclAllReduce returned tid=6907 latency=5 us
+[1079032604883] ncclAllReduce called tid=6907 count=134217728
+[1079032609841] ncclAllReduce returned tid=6907 latency=5 us
+[1079032611857] ncclAllReduce called tid=6907 count=134217728
+[1079032616831] ncclAllReduce returned tid=6907 latency=5 us
+[1079032619917] ncclAllReduce called tid=6907 count=134217728
+[1079032624872] ncclAllReduce returned tid=6907 latency=4 us
+[1079032627043] ncclAllReduce called tid=6907 count=134217728
+[1079032631956] ncclAllReduce returned tid=6907 latency=4 us
+[1079032633901] ncclAllReduce called tid=6907 count=134217728
+[1079032638884] ncclAllReduce returned tid=6907 latency=5 us
+[1079035436942] ncclAllReduce called tid=6907 count=134217728
+[1079035447247] ncclAllReduce returned tid=6907 latency=10 us
